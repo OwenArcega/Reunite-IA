@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="http://localhost:3000/register" method="post" enctype="multipart/form-data">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="photo">Photo:</label><br>
+  <input type="file" id="photo" name="photo"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>Login Form</h2>
+
+<form action="http://localhost:3000/login" method="post">
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

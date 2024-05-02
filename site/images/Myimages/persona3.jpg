@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-typography-survey-disabled vector-toc-available" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Mark Rober - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-typography-survey-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],
+"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"968e400e-72bd-41fa-9a19-8352abf44da6","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mark_Rober","wgTitle":"Mark Rober","wgCurRevisionId":1185974641,"wgRevisionId":1185974641,"wgArticleId":50482521,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia indefinitely semi-protected pages","Articles with short description","Short description is different from Wikidata","Use mdy dates from April 2021","Pages using embedded infobox templates with the title parameter","Articles with hCards","1980 births","21st-century American inventors","American mechanical engineers","American YouTubers","Apple Inc. employees","Autism activists","Brea Olinda High School alumni","Brigham Young University alumni",
+"Charity fundraisers (people)","DIY YouTubers","Educational and science YouTubers","Living people","NASA people","Online edutainment","People from Orange County, California","Science communicators","Science-related YouTube channels","University of Southern California alumni"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Mark_Rober","wgRelevantArticleId":50482521,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":
+30000,"wgULSCurrentAutonym":"English","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q24088544","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.tmh.player.styles":"ready","codex-search-styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":
+"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","ext.tmh.player","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.tmh.player.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cjquery.tablesorter.styles%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.42.0-wmf.5">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/1200px-Mark_Rober_2020.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1390">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/800px-Mark_Rober_2020.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="927">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/640px-Mark_Rober_2020.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="741">
+<meta name="viewport" content="width=1000">
+<meta property="og:title" content="Mark Rober - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Mark_Rober">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Mark_Rober">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="//login.wikimedia.org">
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Mark_Rober rootpage-Mark_Rober skin-vector-2022 action-view"><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div class="vector-main-menu-action vector-main-menu-action-lang-alert">
+	<div class="vector-main-menu-action-item">
+		<div class="vector-main-menu-action-heading vector-menu-heading">Languages</div>
+		<div class="vector-main-menu-action-content vector-menu-content">
+			<div class="mw-message-box cdx-message cdx-message--block mw-message-box-notice cdx-message--notice vector-language-sidebar-alert"><span class="cdx-message__icon"></span><div class="cdx-message__content">Language links are at the top of the page across from the title.</div></div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikipedia.png" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en.svg" style="width: 7.5em; height: 1.125em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en.svg" width="117" height="13" style="width: 7.3125em; height: 0.8125em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools" role="navigation" >
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mark+Rober" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw="interface" href="/w/index.php?title=Special:UserLogin&amp;returnto=Mark+Rober" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Mark+Rober" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Mark+Rober" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-user-menu-anon-editor" class="vector-menu mw-portlet mw-portlet-user-menu-anon-editor"  >
+	<div class="vector-menu-heading">
+		Pages for logged out editors <a href="/wiki/Help:Introduction" aria-label="Learn more about editing"><span>learn more</span></a>
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li><li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site" role="navigation">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<nav id="mw-panel-toc" role="navigation" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark vector-sticky-pinned-container">
+				<div id="vector-toc-pinned-container" class="vector-pinned-container">
+				<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Early_life_and_education"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Early_life_and_education">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">1</span>Early life and education</div>
+		</a>
+		
+		<ul id="toc-Early_life_and_education-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Career"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Career">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">2</span>Career</div>
+		</a>
+		
+			<button aria-controls="toc-Career-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon vector-icon--x-small mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Career subsection</span>
+			</button>
+		
+		<ul id="toc-Career-sublist" class="vector-toc-list">
+			<li id="toc-Early_career_(NASA)"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#Early_career_(NASA)">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.1</span>Early career (NASA)</div>
+			</a>
+			
+			<ul id="toc-Early_career_(NASA)-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-YouTube_channel,_science_communication"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#YouTube_channel,_science_communication">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.2</span>YouTube channel, science communication</div>
+			</a>
+			
+			<ul id="toc-YouTube_channel,_science_communication-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+		<li id="toc-CrunchLabs"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#CrunchLabs">
+				<div class="vector-toc-text">
+				<span class="vector-toc-numb">2.3</span>CrunchLabs</div>
+			</a>
+			
+			<ul id="toc-CrunchLabs-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Personal_life"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Personal_life">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">3</span>Personal life</div>
+		</a>
+		
+		<ul id="toc-Personal_life-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Awards_and_nominations"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Awards_and_nominations">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">4</span>Awards and nominations</div>
+		</a>
+		
+		<ul id="toc-Awards_and_nominations-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Notes"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Notes">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">5</span>Notes</div>
+		</a>
+		
+		<ul id="toc-Notes-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">6</span>References</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+			<span class="vector-toc-numb">7</span>External links</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+				</div>
+	</nav>
+		
+		<div class="mw-content-container">
+			<main id="content" class="mw-body" role="main">
+				<header class="mw-body-header vector-page-titlebar">
+					<nav role="navigation" aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Mark Rober</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 18 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-18" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">18 languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%83_%D8%B1%D9%88%D8%A8%D9%8A%D8%B1" title="مارك روبير – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%DA%A9_%D8%B1%D9%88%D8%A8%D8%B1" title="مارک روبر – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC_%EB%A1%9C%EB%B2%84" title="마크 로버 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%9E%D7%90%D7%A8%D7%A7_%D7%A8%D7%95%D7%91%D7%A8" title="מארק רובר – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Marks_Robers" title="Marks Robers – Latvian" lang="lv" hreflang="lv" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BC" title="マーク・ローバー – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Mark_Rober" title="Mark Rober – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%85%8B%C2%B7%E7%BD%97%E4%BC%AF" title="马克·罗伯 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q24088544#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mark_Rober" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Mark_Rober" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="p-variants" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Mark_Rober"><span>Read</span></a></li><li id="ca-viewsource" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Mark_Rober"><span>Read</span></a></li><li id="ca-more-viewsource" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;action=edit"><span>View source</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Mark_Rober" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Mark_Rober" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;oldid=1185974641" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Mark_Rober&amp;id=1185974641&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMark_Rober"><span>Get shortened URL</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q24088544" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Mark_Rober&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Mark_Rober&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Mark_Rober" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiquote mw-list-item"><a href="https://en.wikiquote.org/wiki/Mark_Rober" hreflang="en"><span>Wikiquote</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end">
+					<nav class="vector-page-tools-landmark vector-sticky-pinned-container" aria-label="Page tools">
+						<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+			
+						</div>
+	</nav>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-pp-default" class="mw-indicator"><div class="mw-parser-output"><span typeof="mw:File"><a href="/wiki/Wikipedia:Protection_policy#semi" title="This article is semi-protected."><img alt="Page semi-protected" src="//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png" decoding="async" width="20" height="20" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/30px-Semi-protection-shackle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/40px-Semi-protection-shackle.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></div></div>
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p class="mw-empty-elt">
+</p>
+<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">American YouTuber and engineer (born 1980)</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1066479718">.mw-parser-output .infobox-subbox{padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent}.mw-parser-output .infobox-3cols-child{margin:auto}.mw-parser-output .infobox .navbar{font-size:100%}body.skin-minerva .mw-parser-output .infobox-header,body.skin-minerva .mw-parser-output .infobox-subheader,body.skin-minerva .mw-parser-output .infobox-above,body.skin-minerva .mw-parser-output .infobox-title,body.skin-minerva .mw-parser-output .infobox-image,body.skin-minerva .mw-parser-output .infobox-full-data,body.skin-minerva .mw-parser-output .infobox-below{text-align:center}</style><table class="infobox biography vcard"><tbody><tr><th colspan="2" class="infobox-above" style="font-size:125%;"><div class="fn" style="display:inline-block">Mark Rober</div></th></tr><tr><td colspan="2" class="infobox-image"><span class="mw-default-size" typeof="mw:File/Frameless"><a href="/wiki/File:Mark_Rober_2020.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/220px-Mark_Rober_2020.jpg" decoding="async" width="220" height="255" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/330px-Mark_Rober_2020.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mark_Rober_2020.jpg/440px-Mark_Rober_2020.jpg 2x" data-file-width="1883" data-file-height="2181" /></a></span><div class="infobox-caption">Rober in 2019</div></td></tr><tr><th scope="row" class="infobox-label">Born</th><td class="infobox-data"><span style="display:none"> (<span class="bday">1980-03-11</span>) </span>March 11, 1980<span class="noprint ForceAgeToShow"> (age&#160;43)</span></td></tr><tr><th scope="row" class="infobox-label">Nationality</th><td class="infobox-data category">American</td></tr><tr><th scope="row" class="infobox-label">Alma&#160;mater</th><td class="infobox-data"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class="plainlist">
+<ul><li><a href="/wiki/Brigham_Young_University" title="Brigham Young University">Brigham Young University</a> (<a href="/wiki/Bachelor_of_Science" title="Bachelor of Science">BS</a>)</li>
+<li><a href="/wiki/University_of_Southern_California" title="University of Southern California">University of Southern California</a> (<a href="/wiki/Master_of_Science" title="Master of Science">MS</a>)</li></ul>
+</div></td></tr><tr><th scope="row" class="infobox-label">Occupations</th><td class="infobox-data role"><style data-mw-deduplicate="TemplateStyles:r1129693374">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:" · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><div class="hlist"><ul><li>Engineer</li><li>inventor</li><li><a href="/wiki/YouTuber" title="YouTuber">YouTuber</a></li></ul></div></td></tr><tr><th scope="row" class="infobox-label">Known&#160;for</th><td class="infobox-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><div class="hlist"><ul><li><a href="/wiki/Social_media" title="Social media">Social media</a> videos</li><li>CrunchLabs</li><li><a href="/wiki/Curiosity_(rover)" title="Curiosity (rover)">Curiosity (rover)</a></li></ul></div></td></tr><tr><th scope="row" class="infobox-label">Children</th><td class="infobox-data">1</td></tr><tr><td colspan="2" class="infobox-full-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1066479718"><style data-mw-deduplicate="TemplateStyles:r1170631391">.mw-parser-output .ib-youtube-title,.mw-parser-output .ib-youtube-above,.mw-parser-output .ib-youtube-header,.mw-parser-output .ib-youtube-awards-color{background-color:#B60000;color:white}.mw-parser-output .ib-youtube-above{font-size:125%}.mw-parser-output .ib-youtube-above .honorific-prefix,.mw-parser-output .ib-youtube-above .honorific-suffix{font-size:small;font-weight:normal}.mw-parser-output .ib-youtube-above .honorific-prefix a,.mw-parser-output .ib-youtube-above .honorific-suffix a,.mw-parser-output .ib-youtube-awards-color a,.mw-parser-output .ib-youtube-awards-color .mw-collapsible-text,.mw-parser-output .ib-youtube-awards-color .mw-collapsible-toggle::before,.mw-parser-output .ib-youtube-awards-color .mw-collapsible-toggle::after{color:white}.mw-parser-output .ib-youtube-header{line-height:1.5em}.mw-parser-output .ib-youtube-title{line-height:1.6em}.mw-parser-output .ib-youtube .infobox-full-data{padding:0}.mw-parser-output .ib-youtube div.nickname,.mw-parser-output .ib-youtube div.birthplace,.mw-parser-output .ib-youtube div.deathplace{display:inline}.mw-parser-output .ib-youtube-awards{width:100%;display:inline-table;border-spacing:0;margin:0}.mw-parser-output .ib-youtube-awards th div{text-align:center;margin:0 4em}.mw-parser-output .ib-youtube-awards td{vertical-align:middle}.mw-parser-output .ib-youtube-below{color:darkslategray}body.skin-minerva .mw-parser-output .ib-youtube-title{padding:7px}body:not(.skin-minerva) .mw-parser-output .ib-youtube-awards td{padding:3px}body.skin-minerva .mw-parser-output .ib-youtube-below hr:first-of-type{display:none}</style><div><b>YouTube information</b></div></td></tr><tr><th scope="row" class="infobox-label">Channel</th><td class="infobox-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><div class="hlist">
+<ul><li><a rel="nofollow" class="external text" href="https://www.youtube.com/c/MarkRober">Mark Rober</a></li></ul>
+</div></td></tr><tr><th scope="row" class="infobox-label">Years&#160;active</th><td class="infobox-data">2011–present</td></tr><tr><th scope="row" class="infobox-label">Genre</th><td class="infobox-data">Science &amp; Technology</td></tr><tr><th scope="row" class="infobox-label">Subscribers</th><td class="infobox-data">27 million<sup id="cite_ref-YouTube_channel_1-0" class="reference"><a href="#cite_note-YouTube_channel-1">&#91;1&#93;</a></sup><sup id="cite_ref-YouTubeStatsMark_Rober_2-0" class="reference"><a href="#cite_note-YouTubeStatsMark_Rober-2">&#91;2&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label">Total&#160;views</th><td class="infobox-data">4.2 billion<sup id="cite_ref-SocialBlade_3-0" class="reference"><a href="#cite_note-SocialBlade-3">&#91;3&#93;</a></sup><sup id="cite_ref-YouTubeStatsMark_Rober_2-1" class="reference"><a href="#cite_note-YouTubeStatsMark_Rober-2">&#91;2&#93;</a></sup></td></tr><tr><th scope="row" class="infobox-label">Associated acts</th><td class="infobox-data"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><div class="hlist">
+<ul><li><a href="/wiki/MrBeast" title="MrBeast">MrBeast</a></li>
+<li><a href="/wiki/Colin_Furze" title="Colin Furze">Colin Furze</a></li>
+<li><a href="/wiki/Vsauce" title="Vsauce">Vsauce</a></li>
+<li><a href="/wiki/Destin_Sandlin" title="Destin Sandlin">Smarter Every Day</a></li>
+<li><a href="/wiki/How_Ridiculous" title="How Ridiculous">How Ridiculous</a></li>
+<li><a href="/wiki/Jim_Browning_(YouTuber)" title="Jim Browning (YouTuber)">Jim Browning</a></li>
+<li><a href="/wiki/Scammer_Payback" title="Scammer Payback">Scammer Payback</a></li>
+<li><a href="/wiki/Noah_Schnapp" title="Noah Schnapp">Noah Schnapp</a></li>
+<li><a href="/wiki/Dude_Perfect" title="Dude Perfect">Dude Perfect</a></li></ul>
+</div></td></tr><tr><td colspan="2" class="infobox-full-data"><table class="ib-youtube-awards mw-collapsible mw-collapsed">
+<tbody><tr><th colspan="3"><div><a href="/wiki/YouTube_Creator_Awards" title="YouTube Creator Awards">Creator Awards</a></div></th></tr><tr><td><span typeof="mw:File"><span><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/YouTube_Silver_Play_Button_2.svg/32px-YouTube_Silver_Play_Button_2.svg.png" decoding="async" width="32" height="22" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/YouTube_Silver_Play_Button_2.svg/48px-YouTube_Silver_Play_Button_2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/YouTube_Silver_Play_Button_2.svg/64px-YouTube_Silver_Play_Button_2.svg.png 2x" data-file-width="512" data-file-height="358" /></span></span></td><td>100,000 subscribers</td><td>2014</td></tr><tr><td><span typeof="mw:File"><span><img src="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/YouTube_Gold_Play_Button_2.svg/32px-YouTube_Gold_Play_Button_2.svg.png" decoding="async" width="32" height="22" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/YouTube_Gold_Play_Button_2.svg/48px-YouTube_Gold_Play_Button_2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/aa/YouTube_Gold_Play_Button_2.svg/64px-YouTube_Gold_Play_Button_2.svg.png 2x" data-file-width="512" data-file-height="358" /></span></span></td><td>1,000,000 subscribers</td><td>2016</td></tr><tr><td><span typeof="mw:File"><span><img src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/YouTube_Diamond_Play_Button.svg/32px-YouTube_Diamond_Play_Button.svg.png" decoding="async" width="32" height="23" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/YouTube_Diamond_Play_Button.svg/48px-YouTube_Diamond_Play_Button.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e3/YouTube_Diamond_Play_Button.svg/64px-YouTube_Diamond_Play_Button.svg.png 2x" data-file-width="512" data-file-height="360" /></span></span></td><td>10,000,000 subscribers</td><td>2019</td></tr>
+</tbody></table></td></tr><tr><td colspan="2" class="infobox-below ib-youtube-below"><hr /><i>Last updated:</i> October 27, 2023</td></tr><tr style="display:none"><td colspan="2">
+</td></tr></tbody></table>
+<p><b>Mark Rober</b> (born March 11, 1980<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">&#91;4&#93;</a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5">&#91;5&#93;</a></sup><sup id="cite_ref-Wired_6-0" class="reference"><a href="#cite_note-Wired-6">&#91;6&#93;</a></sup>) is an American <a href="/wiki/YouTuber" title="YouTuber">YouTuber</a>, engineer, inventor, and educator. He is known for his YouTube videos on <a href="/wiki/Popular_science" title="Popular science">popular science</a> and <a href="/wiki/Do_it_yourself" title="Do it yourself">do-it-yourself</a> <a href="/wiki/Gadget" title="Gadget">gadgets</a>. Before he became a YouTuber, Rober was an engineer with <a href="/wiki/NASA" title="NASA">NASA</a> for nine years, where he spent seven years working on the <a href="/wiki/Curiosity_(rover)" title="Curiosity (rover)">Curiosity rover</a> at NASA's <a href="/wiki/Jet_Propulsion_Laboratory" title="Jet Propulsion Laboratory">Jet Propulsion Laboratory</a>. He later worked for four years at <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple Inc.</a> as a product designer in their Special Projects Group, where he authored patents involving virtual reality in self-driving cars.
+</p>
+<meta property="mw:PageProp/toc" />
+<h2><span class="mw-headline" id="Early_life_and_education">Early life and education</span></h2>
+<p>Rober was raised in <a href="/wiki/Brea,_California" title="Brea, California">Brea, California</a>, the youngest of three siblings. He graduated from <a href="/wiki/Brea_Olinda_High_School" title="Brea Olinda High School">Brea Olinda High School</a> in 1998.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;8&#93;</a></sup> He became interested in engineering at a young age, making a pair of goggles that helped avoid <a href="/wiki/Onion#Eye_irritation" title="Onion">eye irritation while cutting onions</a>.<sup id="cite_ref-Wired_6-1" class="reference"><a href="#cite_note-Wired-6">&#91;6&#93;</a></sup> Rober earned a mechanical engineering degree from <a href="/wiki/Brigham_Young_University" title="Brigham Young University">Brigham Young University</a> as well as a master's degree from the <a href="/wiki/University_of_Southern_California" title="University of Southern California">University of Southern California</a>.<sup id="cite_ref-TED_9-0" class="reference"><a href="#cite_note-TED-9">&#91;9&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Career">Career</span></h2>
+<h3><span id="Early_career_.28NASA.29"></span><span class="mw-headline" id="Early_career_(NASA)">Early career (NASA)</span></h3>
+<p>Rober joined <a href="/wiki/NASA" title="NASA">NASA</a>'s <a href="/wiki/Jet_Propulsion_Laboratory" title="Jet Propulsion Laboratory">Jet Propulsion Laboratory</a> (JPL) in 2004.<sup id="cite_ref-Rover_10-0" class="reference"><a href="#cite_note-Rover-10">&#91;10&#93;</a></sup> He worked there for nine years, seven of which were spent working on the <a href="/wiki/Curiosity_(rover)" title="Curiosity (rover)">Curiosity rover</a>, which is now on <a href="/wiki/Mars" title="Mars">Mars</a>.<sup id="cite_ref-TED_9-1" class="reference"><a href="#cite_note-TED-9">&#91;9&#93;</a></sup> He designed and delivered hardware on several JPL missions, including AMT, <a href="/wiki/Gravity_Recovery_and_Interior_Laboratory" class="mw-redirect" title="Gravity Recovery and Interior Laboratory">GRAIL</a>, <a href="/wiki/Soil_Moisture_Active_Passive" title="Soil Moisture Active Passive">SMAP</a>, and <a href="/wiki/Mars_Science_Laboratory" title="Mars Science Laboratory">Mars Science Laboratory</a>.<sup id="cite_ref-NASA_11-0" class="reference"><a href="#cite_note-NASA-11">&#91;11&#93;</a></sup> While at NASA, Rober was one of the primary architects for "JPL Wired", which was a comprehensive knowledge capture <a href="/wiki/Wiki" title="Wiki">wiki</a>.<sup id="cite_ref-NASA_11-1" class="reference"><a href="#cite_note-NASA-11">&#91;11&#93;</a></sup> He published a case study about applying wiki technology in a high-tech organization to develop an "Intrapedia" for the capture of corporate knowledge.<sup id="cite_ref-Wiki_12-0" class="reference"><a href="#cite_note-Wiki-12">&#91;12&#93;</a></sup>
+</p>
+<h3><span id="YouTube_channel.2C_science_communication"></span><span class="mw-headline" id="YouTube_channel,_science_communication">YouTube channel, science communication</span></h3>
+<p>While at NASA, Rober began making viral videos.<sup id="cite_ref-Wired_6-2" class="reference"><a href="#cite_note-Wired-6">&#91;6&#93;</a></sup> His videos cover a wide variety of topics, sparking ideas for <a href="/wiki/April_Fools%27_Day" title="April Fools&#39; Day">April Fools' Day</a> pranks<sup id="cite_ref-Time_13-0" class="reference"><a href="#cite_note-Time-13">&#91;13&#93;</a></sup><sup id="cite_ref-People_14-0" class="reference"><a href="#cite_note-People-14">&#91;14&#93;</a></sup> and teaching about beating an <a href="/wiki/Escape_room" title="Escape room">escape room</a> and filming primates in zoos non-invasively.<sup id="cite_ref-Wired_6-3" class="reference"><a href="#cite_note-Wired-6">&#91;6&#93;</a></sup> He also advocates for science in many of his videos.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">&#91;15&#93;</a></sup><sup id="cite_ref-16" class="reference"><a href="#cite_note-16">&#91;16&#93;</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">&#91;17&#93;</a></sup>
+</p><p>In October 2011, Rober recorded his first YouTube video. It shows a <a href="/wiki/Halloween" title="Halloween">Halloween</a> costume that used two <a href="/wiki/IPad" title="IPad">iPads</a> to create the illusion of seeing through his body.<sup id="cite_ref-WiredUK_18-0" class="reference"><a href="#cite_note-WiredUK-18">&#91;18&#93;</a></sup> His video of the "gaping hole in torso" costume went <a href="/wiki/Viral_video" title="Viral video">viral</a>, receiving 1.5&#160;million views in one day.<sup id="cite_ref-Tech_19-0" class="reference"><a href="#cite_note-Tech-19">&#91;19&#93;</a></sup><sup id="cite_ref-CNN_20-0" class="reference"><a href="#cite_note-CNN-20">&#91;20&#93;</a></sup> The following year, Rober launched Digital Dudz, an online Halloween costume company that specializes in Halloween costumes based on the same concept as the video (to which Rober holds the patent). The company took in $250,000 in revenue in its first three weeks of operations, and by 2013 his app-integrated costumes were sold in retail stores such as <a href="/wiki/Party_City" title="Party City">Party City</a>.<sup id="cite_ref-WiredUK_18-1" class="reference"><a href="#cite_note-WiredUK-18">&#91;18&#93;</a></sup><sup id="cite_ref-Bloomberg_21-0" class="reference"><a href="#cite_note-Bloomberg-21">&#91;21&#93;</a></sup><sup id="cite_ref-Today_22-0" class="reference"><a href="#cite_note-Today-22">&#91;22&#93;</a></sup> The costumes were widely featured on news channels such as <a href="/wiki/CBS_News" title="CBS News">CBS News</a>, <a href="/wiki/CNN" title="CNN">CNN</a>, <i><a href="/wiki/The_Tonight_Show_with_Jay_Leno" title="The Tonight Show with Jay Leno">The Tonight Show with Jay Leno</a></i>, <a href="/wiki/Fox_Broadcasting_Company" title="Fox Broadcasting Company">Fox</a>, <a href="/wiki/Yahoo!_News" title="Yahoo! News">Yahoo! News</a>, <a href="/wiki/Discovery_Channel" title="Discovery Channel">Discovery Channel</a>, <i><a href="/wiki/Today_(U.S._TV_program)" class="mw-redirect" title="Today (U.S. TV program)">The Today Show</a></i> and <i><a href="/wiki/Good_Morning_America" title="Good Morning America">GMA</a></i>.<sup id="cite_ref-Dudz_23-0" class="reference"><a href="#cite_note-Dudz-23">&#91;23&#93;</a></sup> He sold the company to UK-based costume company <a href="/wiki/Morphsuits" title="Morphsuits">Morphsuits</a> in 2013.<sup id="cite_ref-Bloomberg_21-1" class="reference"><a href="#cite_note-Bloomberg-21">&#91;21&#93;</a></sup>
+</p>
+<figure class="mw-halign-left" typeof="mw:File/Thumb"><span><video id="mwe_player_0" poster="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/MarkRoberGlitterBomb.webm/144px--MarkRoberGlitterBomb.webm.jpg" controls="" preload="none" class="mw-file-element" width="144" height="256" data-durationhint="8" data-mwtitle="MarkRoberGlitterBomb.webm" data-mwprovider="wikimediacommons" resource="/wiki/File:MarkRoberGlitterBomb.webm"><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.480p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="480p.vp9.webm" data-width="270" data-height="480" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.720p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="720p.vp9.webm" data-width="406" data-height="720" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.1080p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="1080p.vp9.webm" data-width="608" data-height="1080" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.1440p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="1440p.vp9.webm" data-width="810" data-height="1440" /><source src="//upload.wikimedia.org/wikipedia/commons/6/6a/MarkRoberGlitterBomb.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-width="1080" data-height="1920" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.m3u8" type="application/vnd.apple.mpegurl" data-transcodekey="m3u8" data-width="0" data-height="0" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.240p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="240p.vp9.webm" data-width="136" data-height="240" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.360p.vp9.webm" type="video/webm; codecs=&quot;vp9, opus&quot;" data-transcodekey="360p.vp9.webm" data-width="202" data-height="360" /><source src="//upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/MarkRoberGlitterBomb.webm/MarkRoberGlitterBomb.webm.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" data-transcodekey="360p.webm" data-width="202" data-height="360" /></video></span><figcaption>Demonstration of Mark Rober's glitter bomb</figcaption></figure>
+<p>In December 2018, Rober posted a video showing how he tricked <a href="/wiki/Mail_robbery" title="Mail robbery">parcel thieves</a> with an engineered contraption that sprayed glitter on the thieves, emitted a foul odor, and captured video of the thieves.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">&#91;24&#93;</a></sup><sup id="cite_ref-USATodayGlitter_25-0" class="reference"><a href="#cite_note-USATodayGlitter-25">&#91;25&#93;</a></sup> The video went viral, receiving 25 million views in one day. Rober later removed two of the five incidents caught on tape after discovering that two of the thieves were actually friends of a person he hired to help catch the package thieves.<sup id="cite_ref-USATodayGlitter_25-1" class="reference"><a href="#cite_note-USATodayGlitter-25">&#91;25&#93;</a></sup><sup id="cite_ref-26" class="reference"><a href="#cite_note-26">&#91;26&#93;</a></sup> Rober posted a follow-up in December 2019, teaming up with <a href="/wiki/Macaulay_Culkin" title="Macaulay Culkin">Macaulay Culkin</a> and featuring an improved design.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">&#91;27&#93;</a></sup> Rober would post another follow up a year later with a third edition of the bomb.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">&#91;28&#93;</a></sup> While designing it, Rober collaborated with <a href="/wiki/Jim_Browning_(YouTuber)" title="Jim Browning (YouTuber)">Jim Browning</a>, <a href="/wiki/Scammer_Payback" title="Scammer Payback">Scammer Payback</a>, and various state and federal authorities to use the glitter-bomb bait package as a tactic to track and arrest <a href="/wiki/Money_mule" title="Money mule">money mules</a> and their supervisors, who were working with <a href="/wiki/Scammers" class="mw-redirect" title="Scammers">scamming</a> <a href="/wiki/Call_centers" class="mw-redirect" title="Call centers">call centers</a> in India to rob elderly people of thousands of dollars. This was in conjunction with a multi-Youtuber movement to get back at and shut down scam callers, while raising awareness to prevent other people from being scammed.<sup id="cite_ref-TTimesMR_29-0" class="reference"><a href="#cite_note-TTimesMR-29">&#91;29&#93;</a></sup> The videos resulted in the shutdown of these call centers and the arrest of 15 senior officials involved in the scams.<sup id="cite_ref-TOI_30-0" class="reference"><a href="#cite_note-TOI-30">&#91;30&#93;</a></sup>
+</p><p>In 2021, Rober released the video Backyard Squirrel Maze, showing a backyard obstacle course he built to deter squirrels from stealing food from his bird feeders. He released a follow-up video of an updated obstacle course a year later. By September 2023, the original video had 114 million views; the second video, 80 million and the third, 25 million.<sup id="cite_ref-Gordon2022_31-0" class="reference"><a href="#cite_note-Gordon2022-31">&#91;31&#93;</a></sup>
+</p><p>Rober has contributed articles to <i><a href="/wiki/Men%27s_Health" title="Men&#39;s Health">Men's Health</a></i>,<sup id="cite_ref-MensHealth_32-0" class="reference"><a href="#cite_note-MensHealth-32">&#91;32&#93;</a></sup> and gave a <a href="/wiki/TED_(conference)#TEDx" title="TED (conference)">TEDx</a> presentation in 2015 <i>How to Come Up with Good Ideas</i><sup id="cite_ref-TED_9-2" class="reference"><a href="#cite_note-TED-9">&#91;9&#93;</a></sup> and another one entitled <i>The Super Mario Effect – Tricking Your Brain into Learning More</i>.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">&#91;33&#93;</a></sup> He has also made numerous appearances on <i><a href="/wiki/Jimmy_Kimmel_Live!" title="Jimmy Kimmel Live!">Jimmy Kimmel Live!</a></i>,<sup id="cite_ref-Time_13-1" class="reference"><a href="#cite_note-Time-13">&#91;13&#93;</a></sup> including guest-hosting the show in July 2022.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">&#91;34&#93;</a></sup>
+</p><p>In 2018, it was reported that Rober had been secretly working on virtual reality projects for <a href="/wiki/Apple_Inc." title="Apple Inc.">Apple Inc.</a>,<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">&#91;35&#93;</a></sup> including the company's on-board entertainment for self-driving cars, for which Rober wrote two virtual reality-related patents.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">&#91;36&#93;</a></sup> Rober worked as a product designer in Apple's Special Projects Group from 2015 to early 2020.<sup id="cite_ref-Svvoice_37-0" class="reference"><a href="#cite_note-Svvoice-37">&#91;37&#93;</a></sup> In 2020, Rober was to star in a <a href="/wiki/Discovery_Channel" title="Discovery Channel">Discovery Channel</a> hidden-camera show <i>Revengineers</i> alongside <a href="/wiki/Jimmy_Kimmel" title="Jimmy Kimmel">Jimmy Kimmel</a>.<sup id="cite_ref-Gordon2022_31-1" class="reference"><a href="#cite_note-Gordon2022-31">&#91;31&#93;</a></sup>
+</p><p>In October 2019, <a href="/wiki/MrBeast" title="MrBeast">MrBeast</a> and Rober released a project labeled <a href="/wiki/Team_Trees" title="Team Trees">#TeamTrees</a>, after a tweet that suggested that MrBeast should plant 20 million trees. MrBeast and Rober worked with YouTubers across the globe in an effort to make this come true. The goal of this project was to raise $20,000,000 for the <a href="/wiki/Arbor_Day_Foundation" title="Arbor Day Foundation">Arbor Day Foundation</a> by 2020, and in exchange, the Arbor Day Foundation would plant one tree for each dollar raised.<sup id="cite_ref-38" class="reference"><a href="#cite_note-38">&#91;38&#93;</a></sup> In 2021, he founded <a href="/wiki/Team_Seas" title="Team Seas">#TeamSeas</a> with MrBeast, which raised $33 million to clean up <a href="/wiki/Beach" title="Beach">beaches</a> and <a href="/wiki/Sea" title="Sea">seas</a>, along with removing one pound of trash for each dollar donated, with help from <a href="/wiki/The_Ocean_Cleanup" title="The Ocean Cleanup">The Ocean Cleanup</a>.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">&#91;39&#93;</a></sup>
+</p>
+<h3><span class="mw-headline" id="CrunchLabs">CrunchLabs</span></h3>
+<p>Rober is the founder of CrunchLabs, an educational technology company he launched in 2022. The company creates hands-on STEM learning experiences and subscription box services (CrunchLabs Build Box) that contain building projects and engineering challenges for kids.<sup id="cite_ref-Gordon2022_31-2" class="reference"><a href="#cite_note-Gordon2022-31">&#91;31&#93;</a></sup><sup id="cite_ref-40" class="reference"><a href="#cite_note-40">&#91;40&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Personal_life">Personal life</span></h2>
+<p>Rober moved to <a href="/wiki/Sunnyvale,_California" title="Sunnyvale, California">Sunnyvale, California</a>, in 2015.<sup id="cite_ref-Svvoice_37-1" class="reference"><a href="#cite_note-Svvoice-37">&#91;37&#93;</a></sup> Rober is an advocate for <a href="/wiki/Autism" class="mw-redirect" title="Autism">autism</a> awareness, as his son lives with it.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41">&#91;41&#93;</a></sup> In April 2021,  Rober and Jimmy Kimmel hosted a live stream, raising $3 million in support of <a href="/wiki/NEXT_for_AUTISM" title="NEXT for AUTISM">NEXT for AUTISM</a>.<sup id="cite_ref-42" class="reference"><a href="#cite_note-42">&#91;42&#93;</a></sup>
+</p>
+<h2><span class="mw-headline" id="Awards_and_nominations">Awards and nominations</span></h2>
+<p>In 2021, the <a href="/wiki/Institution_of_Engineering_and_Technology" title="Institution of Engineering and Technology">Institution of Engineering and Technology</a> awarded Rober a one-off prize as STEM Personality of the Year<sup id="cite_ref-43" class="reference"><a href="#cite_note-43">&#91;43&#93;</a></sup> and later named him an Honorary Fellow in recognition of his contribution to the engineering profession.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44">&#91;44&#93;</a></sup>
+</p><p>Rober also delivered the 2023 commencement address at <a href="/wiki/Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a>.<sup id="cite_ref-45" class="reference"><a href="#cite_note-45">&#91;45&#93;</a></sup>
+</p>
+<table class="wikitable sortable">
+
+<tbody><tr>
+<th>Year
+</th>
+<th>Award
+</th>
+<th>Category
+</th>
+<th>Nominee
+</th>
+<th>Result
+</th>
+<th><abbr title="Reference(s)">Ref.</abbr>
+</th></tr>
+<tr>
+<td>2018
+</td>
+<td><a href="/wiki/8th_Streamy_Awards" title="8th Streamy Awards">8th Streamy Awards</a>
+</td>
+<td rowspan="2">Science or Education
+</td>
+<td rowspan="3">Mark Rober
+</td>
+<td style="background: #FFE3E3; color: black; vertical-align: middle; text-align: center;" class="no table-no2 notheme">Nominated
+</td>
+<th align="center"><sup id="cite_ref-46" class="reference"><a href="#cite_note-46">&#91;46&#93;</a></sup>
+</th></tr>
+<tr>
+<td>2019
+</td>
+<td><a href="/wiki/9th_Streamy_Awards" title="9th Streamy Awards">9th Streamy Awards</a>
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td>
+<th align="center"><sup id="cite_ref-47" class="reference"><a href="#cite_note-47">&#91;47&#93;</a></sup>
+</th></tr>
+<tr>
+<td rowspan="2">2020
+</td>
+<td rowspan="2"><a href="/wiki/10th_Streamy_Awards" title="10th Streamy Awards">10th Streamy Awards</a>
+</td>
+<td>Learning and Education
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td>
+<th align="center" rowspan="2"><sup id="cite_ref-48" class="reference"><a href="#cite_note-48">&#91;48&#93;</a></sup>
+</th></tr>
+<tr>
+<td>Nonprofit or NGO
+</td>
+<td><a href="/wiki/Team_Trees" title="Team Trees">Team Trees</a> <small>(Mark Rober and <a href="/wiki/MrBeast" title="MrBeast">MrBeast</a>)</small>
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td rowspan="2">2021
+</td>
+<td rowspan="2"><a href="/wiki/11th_Streamy_Awards" title="11th Streamy Awards">11th Streamy Awards</a>
+</td>
+<td>Science and Engineering
+</td>
+<td>Mark Rober
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td>
+<th align="center" rowspan="2"><sup id="cite_ref-49" class="reference"><a href="#cite_note-49">&#91;49&#93;</a></sup>
+</th></tr>
+<tr>
+<td>Nonprofit or NGO
+</td>
+<td><a href="/wiki/NEXT_for_AUTISM" title="NEXT for AUTISM">NEXT for AUTISM</a>'s <i>Color the Spectrum LIVE</i><sup id="cite_ref-50" class="reference"><a href="#cite_note-50">&#91;a&#93;</a></sup><br /><small>(Mark Rober and <a href="/wiki/Jimmy_Kimmel" title="Jimmy Kimmel">Jimmy Kimmel</a>)</small>
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td rowspan="7">2022
+</td>
+<td>26th <a href="/wiki/Webby_Awards" title="Webby Awards">Webby Awards</a>
+</td>
+<td>Webby Film &amp; Video Person of the Year
+</td>
+<td rowspan="3">Mark Rober
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td>
+<th align="center"><sup id="cite_ref-51" class="reference"><a href="#cite_note-51">&#91;50&#93;</a></sup>
+</th></tr>
+<tr>
+<td rowspan="6"><a href="/wiki/12th_Streamy_Awards" title="12th Streamy Awards">12th Streamy Awards</a>
+</td>
+<td>Creator of the Year
+</td>
+<td style="background: #FFE3E3; color: black; vertical-align: middle; text-align: center;" class="no table-no2 notheme">Nominated
+</td>
+<th align="center" rowspan="6"><sup id="cite_ref-52" class="reference"><a href="#cite_note-52">&#91;51&#93;</a></sup>
+</th></tr>
+<tr>
+<td>Science and Engineering
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td>Collaboration
+</td>
+<td>Mark Rober, <a href="/wiki/Jim_Browning_(YouTuber)" title="Jim Browning (YouTuber)">Jim Browning</a>, and Trilogy Media<sup id="cite_ref-53" class="reference"><a href="#cite_note-53">&#91;b&#93;</a></sup>
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td>Social Good: Creator
+</td>
+<td rowspan="3"><a href="/wiki/Team_Seas" title="Team Seas">Team Seas</a> <small>(Mark Rober and MrBeast)</small>
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td>Brand Engagement
+</td>
+<td style="background: #9EFF9E; color: #000; vertical-align: middle; text-align: center;" class="yes table-yes2 notheme">Won
+</td></tr>
+<tr>
+<td>Social Impact Campaign
+</td>
+<td style="background: #FFE3E3; color: black; vertical-align: middle; text-align: center;" class="no table-no2 notheme">Nominated
+</td></tr>
+<tr>
+<td rowspan="2">2023
+</td>
+<td rowspan="2"><a href="/wiki/13th_Streamy_Awards" title="13th Streamy Awards">13th Streamy Awards</a>
+</td>
+<td>Science and Engineering
+</td>
+<td>Mark Rober
+</td>
+<td style="background: #FFE3E3; color: black; vertical-align: middle; text-align: center;" class="no table-no2 notheme">Nominated
+</td>
+<th rowspan="2"><sup id="cite_ref-54" class="reference"><a href="#cite_note-54">&#91;52&#93;</a></sup>
+</th></tr>
+<tr>
+<td>Creator Product
+</td>
+<td>CrunchLabs
+</td>
+<td style="background: #FFE3E3; color: black; vertical-align: middle; text-align: center;" class="no table-no2 notheme">Nominated
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist reflist-lower-alpha">
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text">Live stream hosted by Rober and <a href="/wiki/Jimmy_Kimmel" title="Jimmy Kimmel">Jimmy Kimmel</a></span>
+</li>
+<li id="cite_note-53"><span class="mw-cite-backlink"><b><a href="#cite_ref-53">^</a></b></span> <span class="reference-text">Video entitled "Pranks Destroy Scam Callers - GlitterBomb Payback"</span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="References">References</span></h2>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1011085734"><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-YouTube_channel-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-YouTube_channel_1-0">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1133582631">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://youtube.com/c/MarkRober">"About"</a>. <i>YouTuber</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201218132025/https://www.youtube.com/c/MarkRober">Archived</a> from the original on December 18, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">March 10,</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YouTuber&amp;rft.atitle=About&amp;rft_id=https%3A%2F%2Fyoutube.com%2Fc%2FMarkRober&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-YouTubeStatsMark_Rober-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-YouTubeStatsMark_Rober_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-YouTubeStatsMark_Rober_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.youtube.com/c/MarkRober/about">"About Mark Rober"</a>. <a href="/wiki/YouTube" title="YouTube">YouTube</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=About+Mark+Rober&amp;rft.pub=YouTube&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fc%2FMarkRober%2Fabout&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-SocialBlade-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-SocialBlade_3-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://socialblade.com/youtube/c/markrober">"About"</a>. <i>SocialBlade</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220425215141/https://socialblade.com/youtube/c/markrober">Archived</a> from the original on April 25, 2022<span class="reference-accessdate">. Retrieved <span class="nowrap">March 10,</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=SocialBlade&amp;rft.atitle=About&amp;rft_id=https%3A%2F%2Fsocialblade.com%2Fyoutube%2Fc%2Fmarkrober&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRober,_Mark_B._&#91;@MarkRober&#93;2012" class="citation web cs1">Rober, Mark B. [@MarkRober] (November 21, 2012). <a rel="nofollow" class="external text" href="https://twitter.com/MarkRober/status/271369506952208384">"@PookieSchabs that's a problem. March 11. You will be totally unrelate-able for 3 months"</a> (Tweet)<span class="reference-accessdate">. Retrieved <span class="nowrap">June 27,</span> 2023</span> &#8211; via <a href="/wiki/Twitter" title="Twitter">Twitter</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%40PookieSchabs+that%27s+a+problem.+March+11.+You+will+be+totally+unrelate-able+for+3+months.&amp;rft.date=2012-11-21&amp;rft.au=Rober%2C+Mark+B.+%5B%40MarkRober%5D&amp;rft_id=https%3A%2F%2Ftwitter.com%2FMarkRober%2Fstatus%2F271369506952208384&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRober,_Mark_B._&#91;@MarkRober&#93;2021" class="citation web cs1">Rober, Mark B. [@MarkRober] (March 12, 2021). <a rel="nofollow" class="external text" href="https://twitter.com/MarkRober/status/1370415489910931459">"This is the most accurate capture of my YT journey I've seen (usually these things just make facts up to sound well researched). Despite having a bunch of viral videos it took me 5 years to hit 100k then 1M subs. That's one way YT has changed for the better&#160;:)"</a> (Tweet)<span class="reference-accessdate">. Retrieved <span class="nowrap">June 27,</span> 2023</span> &#8211; via <a href="/wiki/Twitter" title="Twitter">Twitter</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=This+is+the+most+accurate+capture+of+my+YT+journey+I%E2%80%99ve+seen+%28usually+these+things+just+make+facts+up+to+sound+well+researched%29.+Despite+having+a+bunch+of+viral+videos+it+took+me+5+years+to+hit+100k+then+1M+subs.+That%E2%80%99s+one+way+YT+has+changed+for+the+better+%3A%29&amp;rft.date=2021-03-12&amp;rft.au=Rober%2C+Mark+B.+%5B%40MarkRober%5D&amp;rft_id=https%3A%2F%2Ftwitter.com%2FMarkRober%2Fstatus%2F1370415489910931459&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Wired-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-Wired_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Wired_6-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Wired_6-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Wired_6-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHart2012" class="citation magazine cs1">Hart, Hugh (February 16, 2012). <a rel="nofollow" class="external text" href="https://www.wired.com/2012/02/gorilla-cam/">"Dirt-Cheap iPhone Trick Captures Great Ape Close-Ups"</a>. <i><a href="/wiki/Wired_(magazine)" title="Wired (magazine)">Wired</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201017201551/https://www.wired.com/2012/02/gorilla-cam/">Archived</a> from the original on October 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">December 12,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Wired&amp;rft.atitle=Dirt-Cheap+iPhone+Trick+Captures+Great+Ape+Close-Ups&amp;rft.date=2012-02-16&amp;rft.aulast=Hart&amp;rft.aufirst=Hugh&amp;rft_id=https%3A%2F%2Fwww.wired.com%2F2012%2F02%2Fgorilla-cam%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://magazine.byu.edu/article/mark-rober/">"Meet Mr. Curiosity"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">June 5,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Meet+Mr.+Curiosity&amp;rft_id=https%3A%2F%2Fmagazine.byu.edu%2Farticle%2Fmark-rober%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.ocregister.com/2017/08/18/brea-grad-blasts-record-with-nerf-gun/">"Brea grad blasts record with Nerf gun"</a>. August 18, 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">June 5,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Brea+grad+blasts+record+with+Nerf+gun&amp;rft.date=2017-08-18&amp;rft_id=https%3A%2F%2Fwww.ocregister.com%2F2017%2F08%2F18%2Fbrea-grad-blasts-record-with-nerf-gun%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-TED-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-TED_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-TED_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-TED_9-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFTEDx_Talks2015" class="citation web cs1">TEDx Talks (July 2, 2015). <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=L1kbrlZRDvU">"How To Come Up With Good Ideas – Mark Rober – TEDxYouth@ColumbiaSC"</a>. YouTube. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210530011114/https://www.youtube.com/watch?v=L1kbrlZRDvU">Archived</a> from the original on May 30, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=How+To+Come+Up+With+Good+Ideas+%E2%80%93+Mark+Rober+%E2%80%93+TEDxYouth%40ColumbiaSC&amp;rft.pub=YouTube&amp;rft.date=2015-07-02&amp;rft.au=TEDx+Talks&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DL1kbrlZRDvU&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Rover-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-Rover_10-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFDiaz2012" class="citation web cs1">Diaz, Jesus (August 16, 2012). <a rel="nofollow" class="external text" href="https://gizmodo.com/5935453/seven-years-in-the-life-of-one-of-the-engineers-of-the-mars-curiosity-rover">"Seven Years In the Life of One of the Engineers of the Mars Curiosity Rover"</a>. <i>Gizmodo</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20181219061642/https://gizmodo.com/5935453/seven-years-in-the-life-of-one-of-the-engineers-of-the-mars-curiosity-rover">Archived</a> from the original on December 19, 2018<span class="reference-accessdate">. Retrieved <span class="nowrap">May 3,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Gizmodo&amp;rft.atitle=Seven+Years+In+the+Life+of+One+of+the+Engineers+of+the+Mars+Curiosity+Rover&amp;rft.date=2012-08-16&amp;rft.aulast=Diaz&amp;rft.aufirst=Jesus&amp;rft_id=https%3A%2F%2Fgizmodo.com%2F5935453%2Fseven-years-in-the-life-of-one-of-the-engineers-of-the-mars-curiosity-rover&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-NASA-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-NASA_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-NASA_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFVervilleJonesRober" class="citation web cs1">Verville, Jon; Jones, Patricia M.; Rober, Mark. <a rel="nofollow" class="external text" href="http://appel.nasa.gov/2011/11/04/44i_wikis_at_nasa-html/">"Why Wikis at NASA?"</a>. <a href="/wiki/NASA" title="NASA">NASA</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210331110701/https://appel.nasa.gov/2011/11/04/44i_wikis_at_nasa-html/">Archived</a> from the original on March 31, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Why+Wikis+at+NASA%3F&amp;rft.pub=NASA&amp;rft.aulast=Verville&amp;rft.aufirst=Jon&amp;rft.au=Jones%2C+Patricia+M.&amp;rft.au=Rober%2C+Mark&amp;rft_id=http%3A%2F%2Fappel.nasa.gov%2F2011%2F11%2F04%2F44i_wikis_at_nasa-html%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Wiki-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Wiki_12-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRoberCooper2011" class="citation conference cs1">Rober, Mark B.; Cooper, Lynne P. (2011). <a rel="nofollow" class="external text" href="https://www.computer.org/csdl/proceedings/hicss/2011/9618/00/05718879.pdf">"Capturing Knowledge via an "Intrapedia": A Case Study"</a> <span class="cs1-format">(PDF)</span>. <i>Proceedings of the 44th Hawaii International Conference on System Sciences</i>. <a href="/wiki/Institute_of_Electrical_and_Electronics_Engineers" title="Institute of Electrical and Electronics Engineers">IEEE</a>. pp.&#160;1–10. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://www.worldcat.org/issn/1530-1605">1530-1605</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20181219000935/https://www.computer.org/csdl/proceedings/hicss/2011/9618/00/05718879.pdf">Archived</a> <span class="cs1-format">(PDF)</span> from the original on December 19, 2018<span class="reference-accessdate">. Retrieved <span class="nowrap">December 18,</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=conference&amp;rft.atitle=Capturing+Knowledge+via+an+%22Intrapedia%22%3A+A+Case+Study&amp;rft.btitle=Proceedings+of+the+44th+Hawaii+International+Conference+on+System+Sciences&amp;rft.pages=1-10&amp;rft.pub=IEEE&amp;rft.date=2011&amp;rft.issn=1530-1605&amp;rft.aulast=Rober&amp;rft.aufirst=Mark+B.&amp;rft.au=Cooper%2C+Lynne+P.&amp;rft_id=https%3A%2F%2Fwww.computer.org%2Fcsdl%2Fproceedings%2Fhicss%2F2011%2F9618%2F00%2F05718879.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Time-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-Time_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Time_13-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWorland2016" class="citation magazine cs1">Worland, Justin (March 31, 2016). <a rel="nofollow" class="external text" href="http://time.com/4277573/april-fools-pranks-jimmy-kimmel/">"Let a NASA Nerd Show You Some Easy and Awesome April Fools' Pranks"</a>. <i><a href="/wiki/Time_(magazine)" title="Time (magazine)">Time</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170130232403/http://time.com/4277573/april-fools-pranks-jimmy-kimmel/">Archived</a> from the original on January 30, 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Time&amp;rft.atitle=Let+a+NASA+Nerd+Show+You+Some+Easy+and+Awesome+April+Fools%27+Pranks&amp;rft.date=2016-03-31&amp;rft.aulast=Worland&amp;rft.aufirst=Justin&amp;rft_id=http%3A%2F%2Ftime.com%2F4277573%2Fapril-fools-pranks-jimmy-kimmel%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-People-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-People_14-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFSpence2015" class="citation news cs1">Spence, Shay (September 3, 2015). <a rel="nofollow" class="external text" href="https://people.com/food/how-to-skin-watermelon-tip/">"Skinning a Watermelon Is Your New Labor Day Party Trick"</a>. People. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210122075929/https://people.com/food/how-to-skin-watermelon-tip/">Archived</a> from the original on January 22, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Skinning+a+Watermelon+Is+Your+New+Labor+Day+Party+Trick&amp;rft.date=2015-09-03&amp;rft.aulast=Spence&amp;rft.aufirst=Shay&amp;rft_id=https%3A%2F%2Fpeople.com%2Ffood%2Fhow-to-skin-watermelon-tip%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFink2019" class="citation news cs1">Fink, Jenni (July 29, 2019). <a rel="nofollow" class="external text" href="https://www.newsweek.com/shark-week-mark-rober-blood-ocean-water-1451623">"Shark Week Fact Vs. Fiction: Former NASA Engineer Tests If Sharks Can Smell a Drop of Blood in Ocean"</a>. <a href="/wiki/Newsweek" title="Newsweek">Newsweek</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201129053654/https://www.newsweek.com/shark-week-mark-rober-blood-ocean-water-1451623">Archived</a> from the original on November 29, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Shark+Week+Fact+Vs.+Fiction%3A+Former+NASA+Engineer+Tests+If+Sharks+Can+Smell+a+Drop+of+Blood+in+Ocean&amp;rft.date=2019-07-29&amp;rft.aulast=Fink&amp;rft.aufirst=Jenni&amp;rft_id=https%3A%2F%2Fwww.newsweek.com%2Fshark-week-mark-rober-blood-ocean-water-1451623&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFStewart2017" class="citation news cs1">Stewart, Jessica (December 4, 2017). <a rel="nofollow" class="external text" href="https://mymodernmet.com/mark-rober-liquid-sand-experiment/">"Ex-NASA Engineer Uses Science to Transform Hot Tub Full of Sand into "Liquid Soup"<span class="cs1-kern-right"></span>"</a>. My Modern Met. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210329094917/https://mymodernmet.com/mark-rober-liquid-sand-experiment/">Archived</a> from the original on March 29, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Ex-NASA+Engineer+Uses+Science+to+Transform+Hot+Tub+Full+of+Sand+into+%22Liquid+Soup%22&amp;rft.date=2017-12-04&amp;rft.aulast=Stewart&amp;rft.aufirst=Jessica&amp;rft_id=https%3A%2F%2Fmymodernmet.com%2Fmark-rober-liquid-sand-experiment%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFFuture_of_Philanthropy2019" class="citation news cs1">Future of Philanthropy (March 12, 2019). <a rel="nofollow" class="external text" href="https://www.fastcompany.com/90316948/how-bill-gates-ended-up-eating-pizza-rolls-on-youtube">"How Bill Gates ended up eating pizza rolls on YouTube"</a>. <a href="/wiki/Fast_Company" title="Fast Company">Fast Company</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201017073924/https://www.fastcompany.com/90316948/how-bill-gates-ended-up-eating-pizza-rolls-on-youtube">Archived</a> from the original on October 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=How+Bill+Gates+ended+up+eating+pizza+rolls+on+YouTube&amp;rft.date=2019-03-12&amp;rft.au=Future+of+Philanthropy&amp;rft_id=https%3A%2F%2Fwww.fastcompany.com%2F90316948%2Fhow-bill-gates-ended-up-eating-pizza-rolls-on-youtube&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-WiredUK-18"><span class="mw-cite-backlink">^ <a href="#cite_ref-WiredUK_18-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-WiredUK_18-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFShubber2013" class="citation magazine cs1">Shubber, Kadhim (August 23, 2013). <a rel="nofollow" class="external text" href="https://www.wired.co.uk/news/archive/2013-08/23/mark-rober-costumes">"Mark Rober left Nasa to make awesome wearable tech Halloween costumes"</a>. <i><a href="/wiki/Wired_UK" title="Wired UK">Wired UK</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160515015926/http://www.wired.co.uk/news/archive/2013-08/23/mark-rober-costumes">Archived</a> from the original on May 15, 2016<span class="reference-accessdate">. Retrieved <span class="nowrap">May 3,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Wired+UK&amp;rft.atitle=Mark+Rober+left+Nasa+to+make+awesome+wearable+tech+Halloween+costumes&amp;rft.date=2013-08-23&amp;rft.aulast=Shubber&amp;rft.aufirst=Kadhim&amp;rft_id=https%3A%2F%2Fwww.wired.co.uk%2Fnews%2Farchive%2F2013-08%2F23%2Fmark-rober-costumes&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Tech-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-Tech_19-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFJohnson2015" class="citation news cs1">Johnson, Charity (October 2, 2015). <a rel="nofollow" class="external text" href="http://www.techtimes.com/articles/89842/20151002/go-hi-tech-this-halloween-with-these-diy-costume-videos.htm">"Go Hi-Tech This Halloween With These DIY Costume Videos"</a>. <i>Tech Times</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170318185953/http://www.techtimes.com/articles/89842/20151002/go-hi-tech-this-halloween-with-these-diy-costume-videos.htm">Archived</a> from the original on March 18, 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Tech+Times&amp;rft.atitle=Go+Hi-Tech+This+Halloween+With+These+DIY+Costume+Videos&amp;rft.date=2015-10-02&amp;rft.aulast=Johnson&amp;rft.aufirst=Charity&amp;rft_id=http%3A%2F%2Fwww.techtimes.com%2Farticles%2F89842%2F20151002%2Fgo-hi-tech-this-halloween-with-these-diy-costume-videos.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-CNN-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-CNN_20-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKelly2013" class="citation web cs1">Kelly, Heather (October 18, 2013). <a rel="nofollow" class="external text" href="http://edition.cnn.com/2013/10/18/tech/innovation/high-tech-halloween/">"Smartphone wounds and other high-tech Halloween tricks"</a>. CNN. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20151030033332/http://edition.cnn.com/2013/10/18/tech/innovation/high-tech-halloween">Archived</a> from the original on October 30, 2015<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Smartphone+wounds+and+other+high-tech+Halloween+tricks&amp;rft.pub=CNN&amp;rft.date=2013-10-18&amp;rft.aulast=Kelly&amp;rft.aufirst=Heather&amp;rft_id=http%3A%2F%2Fedition.cnn.com%2F2013%2F10%2F18%2Ftech%2Finnovation%2Fhigh-tech-halloween%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Bloomberg-21"><span class="mw-cite-backlink">^ <a href="#cite_ref-Bloomberg_21-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Bloomberg_21-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFClark2013" class="citation news cs1">Clark, Patrick (October 18, 2013). <a rel="nofollow" class="external text" href="https://www.bloomberg.com/news/articles/2013-10-18/a-nasa-engineer-builds-a-better-halloween-costume">"A NASA Engineer Builds a Better Halloween Costume"</a>. <i><a href="/wiki/Bloomberg_News" title="Bloomberg News">Bloomberg News</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170511094229/https://www.bloomberg.com/news/articles/2013-10-18/a-nasa-engineer-builds-a-better-halloween-costume">Archived</a> from the original on May 11, 2017<span class="reference-accessdate">. Retrieved <span class="nowrap">May 3,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Bloomberg+News&amp;rft.atitle=A+NASA+Engineer+Builds+a+Better+Halloween+Costume&amp;rft.date=2013-10-18&amp;rft.aulast=Clark&amp;rft.aufirst=Patrick&amp;rft_id=https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2013-10-18%2Fa-nasa-engineer-builds-a-better-halloween-costume&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Today-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-Today_22-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFPepitone2014" class="citation web cs1">Pepitone, Julianne (December 12, 2014). <a rel="nofollow" class="external text" href="http://www.today.com/money/digitally-animated-ugly-christmas-sweaters-bring-kitsch-new-level-1D80365895">"Digitally animated ugly Christmas sweaters bring the kitsch to a new level"</a>. <i><a href="/wiki/Today_(U.S._TV_program)" class="mw-redirect" title="Today (U.S. TV program)">Today</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160410204256/http://www.today.com/money/digitally-animated-ugly-christmas-sweaters-bring-kitsch-new-level-1D80365895">Archived</a> from the original on April 10, 2016<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Today&amp;rft.atitle=Digitally+animated+ugly+Christmas+sweaters+bring+the+kitsch+to+a+new+level&amp;rft.date=2014-12-12&amp;rft.aulast=Pepitone&amp;rft.aufirst=Julianne&amp;rft_id=http%3A%2F%2Fwww.today.com%2Fmoney%2Fdigitally-animated-ugly-christmas-sweaters-bring-kitsch-new-level-1D80365895&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Dudz-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-Dudz_23-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFDigital_Dudz" class="citation web cs1">Digital Dudz. <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=oIBiaaAWVqI">"Select Digital Dudz Media Coverage 2013– Incld GMA, TODAY, Leno, Miley"</a>. YouTube. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20161224191448/https://www.youtube.com/watch?v=oIBiaaAWVqI">Archived</a> from the original on December 24, 2016<span class="reference-accessdate">. Retrieved <span class="nowrap">May 4,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Select+Digital+Dudz+Media+Coverage+2013%E2%80%93+Incld+GMA%2C+TODAY%2C+Leno%2C+Miley&amp;rft.pub=YouTube&amp;rft.au=Digital+Dudz&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoIBiaaAWVqI&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFKleinman2018" class="citation news cs1">Kleinman, Zoe (December 18, 2018). <a rel="nofollow" class="external text" href="https://www.bbc.com/news/technology-46604625">"Glitter bomb tricks parcel thieves"</a>. <i>BBC News</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20181219001533/https://www.bbc.com/news/technology-46604625">Archived</a> from the original on December 19, 2018<span class="reference-accessdate">. Retrieved <span class="nowrap">December 19,</span> 2018</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=BBC+News&amp;rft.atitle=Glitter+bomb+tricks+parcel+thieves&amp;rft.date=2018-12-18&amp;rft.aulast=Kleinman&amp;rft.aufirst=Zoe&amp;rft_id=https%3A%2F%2Fwww.bbc.com%2Fnews%2Ftechnology-46604625&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-USATodayGlitter-25"><span class="mw-cite-backlink">^ <a href="#cite_ref-USATodayGlitter_25-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-USATodayGlitter_25-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFShannon2019" class="citation news cs1">Shannon, Joel (January 23, 2019). <a rel="nofollow" class="external text" href="https://www.usatoday.com/story/news/nation/2018/12/21/viral-glitter-bomb-video-featured-fake-thieves-creator-says/2389954002/">"Viral glitter bomb video featured fake thieves, creator admits in apology"</a>. USA Today. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190124041445/https://www.usatoday.com/story/news/nation/2018/12/21/viral-glitter-bomb-video-featured-fake-thieves-creator-says/2389954002/">Archived</a> from the original on January 24, 2019<span class="reference-accessdate">. Retrieved <span class="nowrap">January 23,</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Viral+glitter+bomb+video+featured+fake+thieves%2C+creator+admits+in+apology&amp;rft.date=2019-01-23&amp;rft.aulast=Shannon&amp;rft.aufirst=Joel&amp;rft_id=https%3A%2F%2Fwww.usatoday.com%2Fstory%2Fnews%2Fnation%2F2018%2F12%2F21%2Fviral-glitter-bomb-video-featured-fake-thieves-creator-says%2F2389954002%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation news cs1"><a rel="nofollow" class="external text" href="https://considerable.com/a-glitter-bomb-makes-for-sweet-revenge-on-a-package-thief/">"A glitter bomb makes for sweet revenge on a package thief"</a>. Considerable. January 23, 2019. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190124041639/https://considerable.com/a-glitter-bomb-makes-for-sweet-revenge-on-a-package-thief/">Archived</a> from the original on January 24, 2019<span class="reference-accessdate">. Retrieved <span class="nowrap">January 23,</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A+glitter+bomb+makes+for+sweet+revenge+on+a+package+thief&amp;rft.date=2019-01-23&amp;rft_id=https%3A%2F%2Fconsiderable.com%2Fa-glitter-bomb-makes-for-sweet-revenge-on-a-package-thief%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFScribner2019" class="citation news cs1">Scribner, Herb (December 18, 2019). <a rel="nofollow" class="external text" href="https://www.deseret.com/utah/2019/12/18/21025001/byu-nasa-macaulay-culkin-mark-rober-glitter-bomb">"BYU grad and former NASA engineer teams with Macaulay Culkin for new viral decoy porch prank"</a>. <a href="/wiki/Deseret_News" title="Deseret News">Deseret News</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200109073025/https://www.deseret.com/utah/2019/12/18/21025001/byu-nasa-macaulay-culkin-mark-rober-glitter-bomb">Archived</a> from the original on January 9, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=BYU+grad+and+former+NASA+engineer+teams+with+Macaulay+Culkin+for+new+viral+decoy+porch+prank&amp;rft.date=2019-12-18&amp;rft.aulast=Scribner&amp;rft.aufirst=Herb&amp;rft_id=https%3A%2F%2Fwww.deseret.com%2Futah%2F2019%2F12%2F18%2F21025001%2Fbyu-nasa-macaulay-culkin-mark-rober-glitter-bomb&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFBurton" class="citation web cs1">Burton, Bonnie. <a rel="nofollow" class="external text" href="https://www.cnet.com/news/ex-nasa-engineer-built-an-exploding-glitter-bomb-to-catch-package-thieves/">"Ex-NASA engineer builds exploding glitter bomb to catch package thieves"</a>. <i>CNET</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201217034658/https://www.cnet.com/news/ex-nasa-engineer-built-an-exploding-glitter-bomb-to-catch-package-thieves/">Archived</a> from the original on December 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">December 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=CNET&amp;rft.atitle=Ex-NASA+engineer+builds+exploding+glitter+bomb+to+catch+package+thieves&amp;rft.aulast=Burton&amp;rft.aufirst=Bonnie&amp;rft_id=https%3A%2F%2Fwww.cnet.com%2Fnews%2Fex-nasa-engineer-built-an-exploding-glitter-bomb-to-catch-package-thieves%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-TTimesMR-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-TTimesMR_29-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWebster2021" class="citation news cs1">Webster, Sophie (April 24, 2021). <a rel="nofollow" class="external text" href="https://www.techtimes.com/articles/259502/20210424/mark-rober-former-nasa-scientist-turned-youtuber-content-creator-engineered.htm">"Mark Rober, a Former NASA Scientist Turned YouTuber Content Creator That Engineered Glitterbomb Packages"</a>. Tech Times. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230306013615/https://www.techtimes.com/articles/259502/20210424/mark-rober-former-nasa-scientist-turned-youtuber-content-creator-engineered.htm">Archived</a> from the original on March 6, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">March 1,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Mark+Rober%2C+a+Former+NASA+Scientist+Turned+YouTuber+Content+Creator+That+Engineered+Glitterbomb+Packages&amp;rft.date=2021-04-24&amp;rft.aulast=Webster&amp;rft.aufirst=Sophie&amp;rft_id=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F259502%2F20210424%2Fmark-rober-former-nasa-scientist-turned-youtuber-content-creator-engineered.htm&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-TOI-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-TOI_30-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFJoshi2022" class="citation news cs1">Joshi, Sonam (May 29, 2022). <a rel="nofollow" class="external text" href="https://timesofindia.indiatimes.com/home/sunday-times/how-four-international-youtube-sleuths-teamed-up-to-expose-call-centre-scams-in-kolkata/articleshow/91859500.cms">"How four international YouTube sleuths teamed up to expose call centre scams in Kolkata"</a>. <i>The Times of India</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230301212904/https://timesofindia.indiatimes.com/home/sunday-times/how-four-international-youtube-sleuths-teamed-up-to-expose-call-centre-scams-in-kolkata/articleshow/91859500.cms">Archived</a> from the original on March 1, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">March 1,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+Times+of+India&amp;rft.atitle=How+four+international+YouTube+sleuths+teamed+up+to+expose+call+centre+scams+in+Kolkata&amp;rft.date=2022-05-29&amp;rft.aulast=Joshi&amp;rft.aufirst=Sonam&amp;rft_id=https%3A%2F%2Ftimesofindia.indiatimes.com%2Fhome%2Fsunday-times%2Fhow-four-international-youtube-sleuths-teamed-up-to-expose-call-centre-scams-in-kolkata%2Farticleshow%2F91859500.cms&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Gordon2022-31"><span class="mw-cite-backlink">^ <a href="#cite_ref-Gordon2022_31-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Gordon2022_31-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Gordon2022_31-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFGordon2022" class="citation web cs1">Gordon, Devin (August 9, 2022). <a rel="nofollow" class="external text" href="https://www.fastcompany.com/90770755/mark-rober-crunchlabs-most-creative-people-2022">"How Mark Rober became the Willy Wonka of engineering"</a>. <i>Fast Company</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230213232154/https://www.fastcompany.com/90770755/mark-rober-crunchlabs-most-creative-people-2022">Archived</a> from the original on February 13, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">February 11,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Fast+Company&amp;rft.atitle=How+Mark+Rober+became+the+Willy+Wonka+of+engineering&amp;rft.date=2022-08-09&amp;rft.aulast=Gordon&amp;rft.aufirst=Devin&amp;rft_id=https%3A%2F%2Fwww.fastcompany.com%2F90770755%2Fmark-rober-crunchlabs-most-creative-people-2022&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-MensHealth-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-MensHealth_32-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.menshealth.com/author/mark-rober">"Author: Mark Rober"</a>. <i><a href="/wiki/Men%27s_Health" title="Men&#39;s Health">Men's Health</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160423121104/http://www.menshealth.com/author/mark-rober">Archived</a> from the original on April 23, 2016<span class="reference-accessdate">. Retrieved <span class="nowrap">May 3,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Men%27s+Health&amp;rft.atitle=Author%3A+Mark+Rober&amp;rft_id=http%3A%2F%2Fwww.menshealth.com%2Fauthor%2Fmark-rober&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFTEDx_Talks2018" class="citation cs2">TEDx Talks (May 31, 2018), <a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=9vJRopau0g0"><i>The Super Mario Effect – Tricking Your Brain into Learning More | Mark Rober | TEDxPenn</i></a>, <a rel="nofollow" class="external text" href="https://web.archive.org/web/20181029004224/https://www.youtube.com/watch?v=9vJRopau0g0">archived</a> from the original on October 29, 2018<span class="reference-accessdate">, retrieved <span class="nowrap">October 29,</span> 2018</span></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Super+Mario+Effect+%E2%80%93+Tricking+Your+Brain+into+Learning+More+%7C+Mark+Rober+%7C+TEDxPenn&amp;rft.date=2018-05-31&amp;rft.au=TEDx+Talks&amp;rft_id=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9vJRopau0g0&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://abc.com/shows/jimmy-kimmel-live/news/schedule/jkl-schedule-for-07112022">"Jimmy Kimmel Live Schedule for the Week of 7/11/2022"</a>. <i>abc.com</i>. July 8, 2022. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220715200331/https://abc.com/shows/jimmy-kimmel-live/news/schedule/jkl-schedule-for-07112022">Archived</a> from the original on July 15, 2022<span class="reference-accessdate">. Retrieved <span class="nowrap">July 15,</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=abc.com&amp;rft.atitle=Jimmy+Kimmel+Live+Schedule+for+the+Week+of+7%2F11%2F2022&amp;rft.date=2022-07-08&amp;rft_id=https%3A%2F%2Fabc.com%2Fshows%2Fjimmy-kimmel-live%2Fnews%2Fschedule%2Fjkl-schedule-for-07112022&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRoettgers2018" class="citation news cs1">Roettgers, Janko (June 26, 2018). <a rel="nofollow" class="external text" href="https://variety.com/2018/digital/news/youtube-maerk-rober-apple-vr-1202858396/">"YouTuber Mark Rober Secretly Develops VR for Self-Driving Cars for Apple (EXCLUSIVE)"</a>. Variety. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200217112314/https://variety.com/2018/digital/news/youtube-maerk-rober-apple-vr-1202858396/">Archived</a> from the original on February 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=YouTuber+Mark+Rober+Secretly+Develops+VR+for+Self-Driving+Cars+for+Apple+%28EXCLUSIVE%29&amp;rft.date=2018-06-26&amp;rft.aulast=Roettgers&amp;rft.aufirst=Janko&amp;rft_id=https%3A%2F%2Fvariety.com%2F2018%2Fdigital%2Fnews%2Fyoutube-maerk-rober-apple-vr-1202858396%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFAiello2018" class="citation news cs1">Aiello, Chloe (June 26, 2018). <a rel="nofollow" class="external text" href="https://www.cnbc.com/2018/06/26/youtuber-joins-apple-in-developing-vr-for-self-driving-cars.html">"A YouTube star with more than 3 million followers has reportedly been working at Apple in secret"</a>. CNBC. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200217112313/https://www.cnbc.com/2018/06/26/youtuber-joins-apple-in-developing-vr-for-self-driving-cars.html">Archived</a> from the original on February 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A+YouTube+star+with+more+than+3+million+followers+has+reportedly+been+working+at+Apple+in+secret&amp;rft.date=2018-06-26&amp;rft.aulast=Aiello&amp;rft.aufirst=Chloe&amp;rft_id=https%3A%2F%2Fwww.cnbc.com%2F2018%2F06%2F26%2Fyoutuber-joins-apple-in-developing-vr-for-self-driving-cars.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-Svvoice-37"><span class="mw-cite-backlink">^ <a href="#cite_ref-Svvoice_37-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Svvoice_37-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFTowne2020" class="citation news cs1">Towne, Erika (February 5, 2020). <a rel="nofollow" class="external text" href="https://www.svvoice.com/sunnyvale-resident-glitter-bombs-package-thieves-gets-discovery-channel-show/">"Sunnyvale Resident Glitter Bombs Package Thieves, Gets Discovery Channel Show"</a>. The Silicon Valley Voice. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210421170545/https://www.svvoice.com/sunnyvale-resident-glitter-bombs-package-thieves-gets-discovery-channel-show/">Archived</a> from the original on April 21, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">February 17,</span> 2020</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Sunnyvale+Resident+Glitter+Bombs+Package+Thieves%2C+Gets+Discovery+Channel+Show&amp;rft.date=2020-02-05&amp;rft.aulast=Towne&amp;rft.aufirst=Erika&amp;rft_id=https%3A%2F%2Fwww.svvoice.com%2Fsunnyvale-resident-glitter-bombs-package-thieves-gets-discovery-channel-show%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://teamtrees.org/">"#teamtrees"</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200517210957/https://teamtrees.org/">Archived</a> from the original on May 17, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">October 25,</span> 2019</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%23teamtrees&amp;rft_id=https%3A%2F%2Fteamtrees.org%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFHalder2022" class="citation news cs1">Halder, Rituraj (December 5, 2022). <a rel="nofollow" class="external text" href="https://www.essentiallysports.com/esports-news-millionaire-mrbeast-wins-big-for-his-philanthropic-work-at-youtube-streamy-awards-2022-creator-for-social-good/">"Millionaire MrBeast Wins Big For His Philanthropic Work At YouTube Streamy Awards 2022 – 'Creator for Social Good'<span class="cs1-kern-right"></span>"</a>. Essentially Sports. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230304081957/https://www.essentiallysports.com/esports-news-millionaire-mrbeast-wins-big-for-his-philanthropic-work-at-youtube-streamy-awards-2022-creator-for-social-good/">Archived</a> from the original on March 4, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">March 4,</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Millionaire+MrBeast+Wins+Big+For+His+Philanthropic+Work+At+YouTube+Streamy+Awards+2022+%E2%80%93+%27Creator+for+Social+Good%27&amp;rft.date=2022-12-05&amp;rft.aulast=Halder&amp;rft.aufirst=Rituraj&amp;rft_id=https%3A%2F%2Fwww.essentiallysports.com%2Fesports-news-millionaire-mrbeast-wins-big-for-his-philanthropic-work-at-youtube-streamy-awards-2022-creator-for-social-good%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFSudborough" class="citation web cs1">Sudborough, Susannah. <a rel="nofollow" class="external text" href="https://www.boston.com/news/local-news/2023/06/01/mit-mark-rober-youtube-2023-commencement/">"Here's the life advice YouTuber Mark Rober gave to MIT's 2023 graduates"</a>. <i>Boston.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">September 8,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Boston.com&amp;rft.atitle=Here%27s+the+life+advice+YouTuber+Mark+Rober+gave+to+MIT%27s+2023+graduates&amp;rft.aulast=Sudborough&amp;rft.aufirst=Susannah&amp;rft_id=https%3A%2F%2Fwww.boston.com%2Fnews%2Flocal-news%2F2023%2F06%2F01%2Fmit-mark-rober-youtube-2023-commencement%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFRober,_Mark_&#91;@MarkRober&#93;2018" class="citation web cs1">Rober, Mark [@MarkRober] (April 2, 2018). <a rel="nofollow" class="external text" href="https://twitter.com/MarkRober/status/981037162920464384">"Happy Autism awareness day/month. The best part of my day is the 20-minute nighttime routine with my son and his stuffed animals. Repetition doesn't bother him (in fact he prefers it) so my same jokes totally kill every night"</a> (Tweet) &#8211; via <a href="/wiki/Twitter" title="Twitter">Twitter</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Happy+Autism+awareness+day%2Fmonth.+The+best+part+of+my+day+is+the+20-minute+nighttime+routine+with+my+son+and+his+stuffed+animals.+Repetition+doesn%27t+bother+him+%28in+fact+he+prefers+it%29+so+my+same+jokes+totally+kill+every+night.&amp;rft.date=2018-04-02&amp;rft.au=Rober%2C+Mark+%5B%40MarkRober%5D&amp;rft_id=https%3A%2F%2Ftwitter.com%2FMarkRober%2Fstatus%2F981037162920464384&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation news cs1"><a rel="nofollow" class="external text" href="https://www.hollywoodreporter.com/tv/tv-news/jimmy-kimmel-conan-obrien-charlize-theron-next-for-autism-fundraiser-4176943/">"Jimmy Kimmel, Conan O'Brien, Charlize Theron and More Help Raise $3M for Next for Autism"</a>. The Hollywood Reporter. April 30, 2021. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230304081054/https://www.hollywoodreporter.com/tv/tv-news/jimmy-kimmel-conan-obrien-charlize-theron-next-for-autism-fundraiser-4176943/">Archived</a> from the original on March 4, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">March 4,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Jimmy+Kimmel%2C+Conan+O%27Brien%2C+Charlize+Theron+and+More+Help+Raise+%243M+for+Next+for+Autism&amp;rft.date=2021-04-30&amp;rft_id=https%3A%2F%2Fwww.hollywoodreporter.com%2Ftv%2Ftv-news%2Fjimmy-kimmel-conan-obrien-charlize-theron-next-for-autism-fundraiser-4176943%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.theiet.org/media/press-releases/press-releases-2021/27-april-2021-iet-crowns-stem-personalities-of-the-year/">"27 April 2021: IET crowns STEM Personalities of the Year - The IET"</a>. <i>www.theiet.org</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20211106203521/https://www.theiet.org/media/press-releases/press-releases-2021/27-april-2021-iet-crowns-stem-personalities-of-the-year/">Archived</a> from the original on November 6, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">November 8,</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.theiet.org&amp;rft.atitle=27+April+2021%3A+IET+crowns+STEM+Personalities+of+the+Year+-+The+IET&amp;rft_id=https%3A%2F%2Fwww.theiet.org%2Fmedia%2Fpress-releases%2Fpress-releases-2021%2F27-april-2021-iet-crowns-stem-personalities-of-the-year%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.theiet.org/media/press-releases/press-releases-2021/2-september-2021-former-nasa-engineer-and-youtube-sensation-mark-rober-receives-prestigious-engineering-accolade/">"IET launches Sustainable Community Competition"</a>. The Institute of Engineering and Technology. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20211106203518/https://www.theiet.org/media/press-releases/press-releases-2021/2-september-2021-former-nasa-engineer-and-youtube-sensation-mark-rober-receives-prestigious-engineering-accolade/">Archived</a> from the original on November 6, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">November 8,</span> 2021</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=IET+launches+Sustainable+Community+Competition&amp;rft.pub=The+Institute+of+Engineering+and+Technology&amp;rft_id=https%3A%2F%2Fwww.theiet.org%2Fmedia%2Fpress-releases%2Fpress-releases-2021%2F2-september-2021-former-nasa-engineer-and-youtube-sensation-mark-rober-receives-prestigious-engineering-accolade%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite id="CITEREFWren2022" class="citation web cs1">Wren, Kathy (December 8, 2022). <a rel="nofollow" class="external text" href="https://news.mit.edu/2022/mark-rober-2023-commencement-address-1208">"Mark Rober to deliver MIT's 2023 Commencement address"</a>. <i><a href="/wiki/MIT_News" title="MIT News">MIT News</a></i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230602175252/https://news.mit.edu/2022/mark-rober-2023-commencement-address-1208">Archived</a> from the original on June 2, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">June 7,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=MIT+News&amp;rft.atitle=Mark+Rober+to+deliver+MIT%27s+2023+Commencement+address&amp;rft.date=2022-12-08&amp;rft.aulast=Wren&amp;rft.aufirst=Kathy&amp;rft_id=https%3A%2F%2Fnews.mit.edu%2F2022%2Fmark-rober-2023-commencement-address-1208&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/8th-annual-nominees/">"8th Annual Winners"</a>. <a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20181125134815/https://www.streamys.org/nominees-winners/8th-annual-nominees/">Archived</a> from the original on November 25, 2018<span class="reference-accessdate">. Retrieved <span class="nowrap">February 27,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=8th+Annual+Winners&amp;rft.pub=Streamy+Awards&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F8th-annual-nominees%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-47">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/9th-annual-nominees/">"9th Annual Winners"</a>. <a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200919094707/https://www.streamys.org/nominees-winners/9th-annual-nominees/">Archived</a> from the original on September 19, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 27,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=9th+Annual+Winners&amp;rft.pub=Streamy+Awards&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F9th-annual-nominees%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/10th-annual-nominees/">"10th Annual Winners"</a>. <a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20201021180006/https://www.streamys.org/nominees-winners/10th-annual-nominees/">Archived</a> from the original on October 21, 2020<span class="reference-accessdate">. Retrieved <span class="nowrap">February 27,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=10th+Annual+Winners&amp;rft.pub=Streamy+Awards&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F10th-annual-nominees%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/11th-annual-nominees/">"11th Annual Winners"</a>. <a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20211213222108/https://www.streamys.org/nominees-winners/11th-annual-nominees/">Archived</a> from the original on December 13, 2021<span class="reference-accessdate">. Retrieved <span class="nowrap">February 27,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=11th+Annual+Winners&amp;rft.pub=Streamy+Awards&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F11th-annual-nominees%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://winners.webbyawards.com/2022/specialachievement/310/mark-rober">"Webby Film &amp; Video Person of the Year"</a>. <a href="/wiki/Webby_Awards" title="Webby Awards">Webby Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20230228023534/https://winners.webbyawards.com/2022/specialachievement/310/mark-rober">Archived</a> from the original on February 28, 2023<span class="reference-accessdate">. Retrieved <span class="nowrap">February 27,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Webby+Film+%26+Video+Person+of+the+Year&amp;rft.pub=Webby+Awards&amp;rft_id=https%3A%2F%2Fwinners.webbyawards.com%2F2022%2Fspecialachievement%2F310%2Fmark-rober&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-52"><span class="mw-cite-backlink"><b><a href="#cite_ref-52">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/12th-annual-nominees">"12th Annual Winners"</a>. <a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20221212154041/https://www.streamys.org/nominees-winners/12th-annual-nominees/">Archived</a> from the original on December 12, 2022<span class="reference-accessdate">. Retrieved <span class="nowrap">December 10,</span> 2022</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=12th+Annual+Winners&amp;rft.pub=Streamy+Awards&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F12th-annual-nominees&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+<li id="cite_note-54"><span class="mw-cite-backlink"><b><a href="#cite_ref-54">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1133582631"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.streamys.org/nominees-winners/13th-annual-nominees/">"13th Annual Streamy Winners"</a>. <i>The Streamy Awards</i><span class="reference-accessdate">. Retrieved <span class="nowrap">August 28,</span> 2023</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+Streamy+Awards&amp;rft.atitle=13th+Annual+Streamy+Winners&amp;rft_id=https%3A%2F%2Fwww.streamys.org%2Fnominees-winners%2F13th-annual-nominees%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AMark+Rober" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="External_links">External links</span></h2>
+<ul><li><a rel="nofollow" class="external text" href="https://www.youtube.com/c/MarkRober">Mark Rober's channel</a> on <a href="/wiki/YouTube_custom_(identifier)" class="mw-redirect" title="YouTube custom (identifier)">YouTube</a></li></ul>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div role="navigation" class="navbox" aria-labelledby="Streamy_Awards_winners_–_Channel,_Series,_or_Show" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2" style="background: #F3E5AB"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1129693374"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Streamy_Awards_Winners_CSS" title="Template:Streamy Awards Winners CSS"><abbr title="View this template" style="background: #F3E5AB;;background:none transparent;border:none;box-shadow:none;padding:0;">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Streamy_Awards_Winners_CSS" title="Template talk:Streamy Awards Winners CSS"><abbr title="Discuss this template" style="background: #F3E5AB;;background:none transparent;border:none;box-shadow:none;padding:0;">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:Streamy_Awards_Winners_CSS" title="Special:EditPage/Template:Streamy Awards Winners CSS"><abbr title="Edit this template" style="background: #F3E5AB;;background:none transparent;border:none;box-shadow:none;padding:0;">e</abbr></a></li></ul></div><div id="Streamy_Awards_winners_–_Channel,_Series,_or_Show" style="font-size:114%;margin:0 4em"><a href="/wiki/Streamy_Awards" title="Streamy Awards">Streamy Awards</a> winners – Channel, Series, or Show</div></th></tr><tr><th scope="row" class="navbox-group" style="background: #F3E5AB;width:1%">Overall</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:13em">Streamer of the Year‡</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Ninja_(gamer)" title="Ninja (gamer)">Ninja</a> (2018)</li>
+<li><a href="/wiki/Ninja_(gamer)" title="Ninja (gamer)">Ninja</a> (2019)</li>
+<li><a href="/wiki/Nickmercs" title="Nickmercs">Nickmercs</a> (2020)</li>
+<li><a href="/wiki/Valkyrae" title="Valkyrae">Valkyrae</a> (2021)</li>
+<li><a href="/wiki/Kai_Cenat" title="Kai Cenat">Kai Cenat</a> (2022)</li>
+<li><a href="/wiki/Kai_Cenat" title="Kai Cenat">Kai Cenat</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Short Form</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i>the cheeky boyos</i> (2021)</li>
+<li>Sheena Melwani (2022)</li>
+<li>Chris Olsen (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">International†</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/OzGirl" title="OzGirl">OzGirl</a></i> (2010)</li>
+<li><i><a href="/wiki/Ryan_Doyle" title="Ryan Doyle">Travel Story</a></i> (2013)</li>
+<li><i>Noob</i> (2014)</li>
+<li><i><a href="/wiki/RackaRacka" title="RackaRacka">RackaRacka</a></i> (2015)</li>
+<li><i><a href="/wiki/Germ%C3%A1n_Garmendia" title="Germán Garmendia">HolaSoyGerman</a></i> (2016)</li>
+<li><a href="/wiki/Juanpa_Zurita" title="Juanpa Zurita">Juanpa Zurita</a> (2017)</li>
+<li><i>Pautips</i> (2018)</li>
+<li><i><a href="/wiki/Fischer%27s" title="Fischer&#39;s">Fischer's-フィッシャーズ- </a></i>, <i><a href="/wiki/Mark_Angel_(comedian)" title="Mark Angel (comedian)">Mark Angel Comedy</a></i> and <i>Camila Loures</i> (2019)</li>
+<li><a href="/wiki/Whindersson_Nunes" title="Whindersson Nunes">Whindersson Nunes</a> (2020)</li>
+<li>Mythpat (2021)</li>
+<li><a href="/wiki/Khaby_Lame" title="Khaby Lame">Khaby Lame</a> (2022)</li>
+<li><a href="/wiki/Ibai_Llanos" title="Ibai Llanos">Ibai</a> (2023)</li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="background: #F3E5AB;width:1%">Individual</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:13em">Breakout Creator</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Matthew_Santoro" title="Matthew Santoro">Matthew Santoro</a> (2015)</li>
+<li><a href="/wiki/Liza_Koshy" title="Liza Koshy">Liza Koshy</a> (2016)</li>
+<li><a href="/wiki/David_Dobrik" title="David Dobrik">David Dobrik</a> (2017)</li>
+<li><a href="/wiki/Emma_Chamberlain" title="Emma Chamberlain">Emma Chamberlain</a> (2018)</li>
+<li><a href="/wiki/MrBeast" title="MrBeast">MrBeast</a> (2019)</li>
+<li><a href="/wiki/Charli_D%27Amelio" title="Charli D&#39;Amelio">Charli D'Amelio</a> (2020)</li>
+<li><a href="/wiki/Bella_Poarch" title="Bella Poarch">Bella Poarch</a> (2021)</li>
+<li><a href="/wiki/Ryan_Trahan" title="Ryan Trahan">Ryan Trahan</a> (2022)</li>
+<li><a href="/wiki/Dylan_Mulvaney" title="Dylan Mulvaney">Dylan Mulvaney</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Breakout Streamer</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/IShowSpeed" title="IShowSpeed">IShowSpeed</a> (2022)</li>
+<li>Fanum (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">First Person</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Grace_Helbig" title="Grace Helbig">DailyGrace</a></i> (2013)</li>
+<li><a href="/wiki/Jenna_Marbles" title="Jenna Marbles">Jenna Marbles</a> (2014)</li>
+<li><i><a href="/wiki/Lilly_Singh" title="Lilly Singh">IISuperwomanII</a></i> (2015)</li>
+<li><a href="/wiki/Casey_Neistat" title="Casey Neistat">Casey Neistat</a> (2016)</li>
+<li><a href="/wiki/Lilly_Singh" title="Lilly Singh">Lilly Singh</a> (2017)</li>
+<li><a href="/wiki/David_Dobrik" title="David Dobrik">David Dobrik</a> (2018)</li>
+<li><a href="/wiki/David_Dobrik" title="David Dobrik">David Dobrik</a> (2019)</li>
+<li><a href="/wiki/Emma_Chamberlain" title="Emma Chamberlain">Emma Chamberlain</a> (2020)</li>
+<li><a href="/wiki/Yes_Theory" title="Yes Theory">Yes Theory</a> (2021)</li>
+<li>Airrack (2022)</li>
+<li><a href="/wiki/Ryan_Trahan" title="Ryan Trahan">Ryan Trahan</a> (2022)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Just Chatting</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/XQc" title="XQc">xQc</a> (2022)</li>
+<li>Quackity (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Variety</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Ludwig_Ahgren" title="Ludwig Ahgren">Ludwig</a> (2022)</li>
+<li><a href="/wiki/IShowSpeed" title="IShowSpeed">IShowSpeed</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">VTuber</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/CodeMiko" title="CodeMiko">CodeMiko</a> (2022)</li>
+<li><a href="/wiki/Gawr_Gura" title="Gawr Gura">Gawr Gura</a> (2023)</li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="background: #F3E5AB;width:1%">Show</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:13em">Podcast</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Grace_Helbig" title="Grace Helbig">Not Too Deep with Grace Helbig</a></i> (2018)</li>
+<li><i><a href="/wiki/Logan_Paul" title="Logan Paul">Impaulsive</a></i> (2019)</li>
+<li><i><a href="/wiki/Jay_Shetty" title="Jay Shetty">On Purpose with Jay Shetty</a></i> (2020)</li>
+<li><i><a href="/wiki/Bailey_Sarian" title="Bailey Sarian">Dark History</a></i> (2021)</li>
+<li><i><a href="/wiki/Call_Her_Daddy" title="Call Her Daddy">Call Her Daddy</a></i> (2022)</li>
+<li><i><a href="/wiki/Jay_Shetty" title="Jay Shetty">On Purpose with Jay Shetty</a></i> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Scripted Series</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Blame_the_Hero" title="Blame the Hero">Blame the Hero</a></i> (2019)</li>
+<li><i><a href="/wiki/A_Heist_with_Markiplier" title="A Heist with Markiplier">A Heist with Markiplier</a></i> (2020)</li>
+<li><i><a href="/wiki/Vsauce" title="Vsauce">Could You Survive The Movies?</a></i> (2021)</li>
+<li><i><a href="/wiki/A_Heist_with_Markiplier" title="A Heist with Markiplier">In Space with Markiplier</a></i> (2022)</li>
+<li><i><a href="/wiki/Brandon_Rogers_(YouTuber)" title="Brandon Rogers (YouTuber)">BRYCE</a></i> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Unscripted Series</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Escape_the_Night_(season_4)" title="Escape the Night (season 4)">Escape the Night: Season 4</a></i> (2019)</li>
+<li><i><a href="/wiki/UNHhhh" title="UNHhhh">UNHhhh</a></i> (2020)</li>
+<li><i><a href="/wiki/Bretman_Rock" title="Bretman Rock">30 Days With: Bretman Rock</a></i> (2021)</li>
+<li><i><a href="/wiki/Michelle_Khare" title="Michelle Khare">Challenge Accepted</a></i> (2022)</li>
+<li><i>Sam and Colby</i> (2023)</li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th scope="row" class="navbox-group" style="background: #F3E5AB;width:1%">Subject</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th scope="row" class="navbox-group" style="width:13em">Animated</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/How_It_Should_Have_Ended" title="How It Should Have Ended">How It Should Have Ended</a></i> (2010)</li>
+<li><i><a href="/wiki/Electric_City_(web_series)" title="Electric City (web series)">Electric City</a></i> (2013)</li>
+<li><i><a href="/wiki/RWBY" title="RWBY">RWBY</a></i> (2014)</li>
+<li><i><a href="/wiki/The_Cyanide_%26_Happiness_Show" title="The Cyanide &amp; Happiness Show">The Cyanide &amp; Happiness Show</a></i> (2015)</li>
+<li><i><a href="/wiki/Adande_Thorne" title="Adande Thorne">sWooZie</a></i> (2016)</li>
+<li><i><a href="/wiki/RWBY" title="RWBY">RWBY</a> (<a href="/wiki/List_of_RWBY_episodes#Volume_4_(2016-17)" title="List of RWBY episodes">Volume 4</a>)</i> (2017)</li>
+<li><i>storybooth</i> (2018)</li>
+<li><i>Andrei Terbea</i> (2019)</li>
+<li><i><a href="/wiki/Jaiden_Animations" title="Jaiden Animations">Jaiden Animations</a></i> (2020)</li>
+<li>Ketnipz (2021)</li>
+<li>MeatCanyon (2022)</li>
+<li><i><a href="/wiki/Helluva_Boss" title="Helluva Boss">Helluva Boss</a></i> (2024)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Beauty</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Ingrid_Nilsen" title="Ingrid Nilsen">Missglamorazzi</a></i> (2014)</li>
+<li><a href="/wiki/Gigi_Gorgeous" title="Gigi Gorgeous">Gigi Gorgeous</a> (2015)</li>
+<li>Kandee Johnson (2016)</li>
+<li><a href="/wiki/Patrick_Starrr" title="Patrick Starrr">Patrick Starrr</a> (2017)</li>
+<li><a href="/wiki/James_Charles" title="James Charles">James Charles</a> (2018)</li>
+<li><a href="/wiki/Nikita_Dragun" title="Nikita Dragun">Nikita Dragun</a> (2019)</li>
+<li><a href="/wiki/James_Charles" title="James Charles">James Charles</a> (2020)</li>
+<li><a href="/wiki/Bailey_Sarian" title="Bailey Sarian">Bailey Sarian</a> (2021)</li>
+<li>MissDarcei (2022)</li>
+<li><a href="/wiki/Mikayla_Nogueira" title="Mikayla Nogueira">Mikayla Nogueira</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Comedy</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Liza_Koshy" title="Liza Koshy">Liza Koshy</a> (2017)</li>
+<li><a href="/wiki/Brandon_Rogers_(YouTuber)" title="Brandon Rogers (YouTuber)">Brandon Rogers</a> (2018)</li>
+<li><a href="/wiki/Jack_Douglass" class="mw-redirect" title="Jack Douglass">Jack Douglass</a> (2019)</li>
+<li><a href="/wiki/Sarah_Cooper" title="Sarah Cooper">Sarah Cooper</a> (2020)</li>
+<li>LeendaDong (2021)</li>
+<li>RDCWorld (2022)</li>
+<li>RDCWorld (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Commentary</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/ContraPoints" title="ContraPoints">ContraPoints</a> (2020)</li>
+<li><a href="/wiki/Drew_Gooden_(YouTuber)" title="Drew Gooden (YouTuber)">Drew Gooden</a> (2021)</li>
+<li><a href="/wiki/Danny_Gonzalez" title="Danny Gonzalez">Danny Gonzalez</a> (2022)</li>
+<li><a href="/wiki/Cr1TiKaL" title="Cr1TiKaL">penguinz0</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Competitive Gamer</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i>tarik</i> (2022)</li>
+<li><a href="/wiki/TenZ" title="TenZ">TenZ</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Fashion and Style‡</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Bethany_Mota" title="Bethany Mota">Bethany Mota</a> (2014)</li>
+<li>Lauren Elizabeth (2015)</li>
+<li><a href="/wiki/Amanda_Steele" title="Amanda Steele">Amanda Steele</a> (2016)</li>
+<li>Tess Christine (2017)</li>
+<li><a href="/wiki/Niki_and_Gabi" title="Niki and Gabi">Niki and Gabi</a> (2018)</li>
+<li>PatrickStarr (2019)</li>
+<li><a href="/wiki/Wisdom_Kaye" title="Wisdom Kaye">Wisdom Kaye</a> (2020)</li>
+<li><a href="/wiki/Wisdom_Kaye" title="Wisdom Kaye">Wisdom Kaye</a> (2021)</li>
+<li><a href="/wiki/Wisdom_Kaye" title="Wisdom Kaye">Wisdom Kaye</a> (2022)</li>
+<li><a href="/wiki/Wisdom_Kaye" title="Wisdom Kaye">Wisdom Kaye</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Food‡</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Epic_Meal_Time" title="Epic Meal Time">Epic Meal Time</a></i> (2014)</li>
+<li><i><a href="/wiki/Epic_Meal_Time" title="Epic Meal Time">Epic Meal Time</a></i> (2015)</li>
+<li><i>Tiny Kitchen</i> (2016)</li>
+<li><i><a href="/wiki/Worth_It_(TV_series)" title="Worth It (TV series)">Worth It</a></i> (2017)</li>
+<li><i><a href="/wiki/Worth_It_(TV_series)" title="Worth It (TV series)">Worth It</a></i> (2018)</li>
+<li><i><a href="/wiki/Babish_Culinary_Universe" title="Babish Culinary Universe">Binging with Babish</a></i> (2019)</li>
+<li><a href="/wiki/Tabitha_Brown_(actress)" title="Tabitha Brown (actress)">Tabitha Brown</a> (2020)</li>
+<li><a href="/wiki/Nick_DiGiovanni" title="Nick DiGiovanni">Nick DiGiovanni</a> (2021)</li>
+<li>Cooking with Lynja (2022)</li>
+<li><a href="/wiki/Nick_DiGiovanni" title="Nick DiGiovanni">Nick DiGiovanni</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Gamer‡</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Smosh" title="Smosh">Smosh Games</a></i> (2014)</li>
+<li><i><a href="/wiki/PewDiePie" title="PewDiePie">PewDiePie</a></i> (2015)</li>
+<li><i><a href="/wiki/MatPat" title="MatPat">The Game Theorists</a></i> (2016)</li>
+<li><i><a href="/wiki/Smosh" title="Smosh">Smosh Games</a></i> (2017)</li>
+<li><i><a href="/wiki/Ninja_(gamer)" title="Ninja (gamer)">Ninja</a></i> (2018)</li>
+<li><i><a href="/wiki/MatPat" title="MatPat">The Game Theorists</a></i> (2019)</li>
+<li><a href="/wiki/Dream_(YouTuber)" title="Dream (YouTuber)">Dream</a> (2020)</li>
+<li><a href="/wiki/Dream_(YouTuber)" title="Dream (YouTuber)">Dream</a> (2021)</li>
+<li><a href="/wiki/Markiplier" title="Markiplier">Markiplier</a> (2022)</li>
+<li><a href="/wiki/Dream_(YouTuber)" title="Dream (YouTuber)">Dream</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Health and Wellness</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Cassey_Ho" title="Cassey Ho">Blogilates</a></i> (2014)</li>
+<li><i><a href="/wiki/Cassey_Ho" title="Cassey Ho">Blogilates</a></i> (2015)</li>
+<li><i>Yoga With Adriene</i> (2016)</li>
+<li><a href="/wiki/Jay_Shetty" title="Jay Shetty">Jay Shetty</a> (2018)</li>
+<li><a href="/wiki/Jay_Shetty" title="Jay Shetty">Jay Shetty</a> (2019)</li>
+<li><a href="/wiki/Chloe_Ting" title="Chloe Ting">Chloe Ting</a> (2020)</li>
+<li><a href="/wiki/Mike_Varshavski" class="mw-redirect" title="Mike Varshavski">Doctor Mike</a> (2021)</li>
+<li><a href="/wiki/Mike_Varshavski" class="mw-redirect" title="Mike Varshavski">Doctor Mike</a> (2022)</li>
+<li>Dr Julie (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Kids and Family</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/React_(media_franchise)" title="React (media franchise)">Kids React</a></i> (2014)</li>
+<li><i>What's Up Moms</i> (2015)</li>
+<li><i><a href="/wiki/Robby_Novak" title="Robby Novak">Kid President</a></i> (2016)</li>
+<li><i><a href="/wiki/Brooklyn_and_Bailey_McKnight" title="Brooklyn and Bailey McKnight">Brooklyn &amp; Bailey</a></i> (2017)</li>
+<li><i>Guava Juice</i> (2018)</li>
+<li><i><a href="/wiki/JoJo_Siwa" title="JoJo Siwa">JoJo Siwa</a></i> (2019)</li>
+<li><i><a href="/wiki/Ryan%27s_World" title="Ryan&#39;s World">Ryan's World</a></i> (2020)</li>
+<li><i>The LaBrant Fam</i> (2021)</li>
+<li><a href="/wiki/Rebecca_Zamolo" title="Rebecca Zamolo">Rebecca Zamolo</a> (2022)</li>
+<li>Ms Rachel (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Learning or Education‡</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Vsauce" title="Vsauce">Vsauce</a></i> (2014)</li>
+<li><i><a href="/wiki/Vsauce" title="Vsauce">Vsauce</a></i> (2015)</li>
+<li><a href="/wiki/Laci_Green" title="Laci Green">Laci Green</a> (2016)</li>
+<li><i><a href="/wiki/Derek_Muller" title="Derek Muller">Veritasium</a></i> (2017)</li>
+<li><a href="/wiki/Marques_Brownlee" title="Marques Brownlee">Marques Brownlee</a> (2018)</li>
+<li><a class="mw-selflink selflink">Mark Rober</a> (2019)</li>
+<li><a class="mw-selflink selflink">Mark Rober</a> (2020)</li>
+<li><i><a href="/wiki/Derek_Muller" title="Derek Muller">Veritasium</a></i> (2021)</li>
+<li><a href="/wiki/Tom_Scott_(YouTuber)" title="Tom Scott (YouTuber)">Tom Scott</a> (2022)</li>
+<li>TierZoo (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Lifestyle</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/IJustine" title="IJustine">iJustine</a></i> (2015)</li>
+<li><i><a href="/wiki/GloZell" title="GloZell">GloZell Green</a></i> (2016)</li>
+<li><i><a href="/wiki/Lauren_Riihimaki" title="Lauren Riihimaki">LaurDIY</a></i> (2017)</li>
+<li><i><a href="/wiki/Merrell_Twins" title="Merrell Twins">Merrell Twins</a></i> (2018)</li>
+<li><i><a href="/wiki/Bretman_Rock" title="Bretman Rock">Bretman Rock</a></i> (2019)</li>
+<li><i><a href="/wiki/Larray" title="Larray">Larray</a></i> (2020)</li>
+<li><a href="/wiki/Addison_Rae" title="Addison Rae">Addison Rae</a> (2021)</li>
+<li><a href="/wiki/Charli_D%27Amelio" title="Charli D&#39;Amelio">Charli D'Amelio</a> (2022)</li>
+<li>AMP (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">News‡</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i>Alive in Baghdad</i> (2009)</li>
+<li><i><a href="/wiki/Songify_the_News" title="Songify the News">Auto-Tune the News</a></i> (2010)</li>
+<li><i><a href="/wiki/The_Philip_DeFranco_Show" title="The Philip DeFranco Show">The Philip DeFranco Show</a></i> (2013)</li>
+<li><i><a href="/wiki/SourceFed" title="SourceFed">SourceFed</a></i> (2014)</li>
+<li><i><a href="/wiki/The_Young_Turks" title="The Young Turks">The Young Turks</a></i> (2015)</li>
+<li><i><a href="/wiki/The_Philip_DeFranco_Show" title="The Philip DeFranco Show">The Philip DeFranco Show</a></i> (2016)</li>
+<li><i><a href="/wiki/The_Young_Turks" title="The Young Turks">The Young Turks</a></i> (2017)</li>
+<li><i><a href="/wiki/The_Philip_DeFranco_Show" title="The Philip DeFranco Show">The Philip DeFranco Show</a></i> (2018)</li>
+<li><i><a href="/wiki/The_Philip_DeFranco_Show" title="The Philip DeFranco Show">The Philip DeFranco Show</a></i> (2019)</li>
+<li><i><a href="/wiki/Hasan_Piker" title="Hasan Piker">HasanAbi</a></i> (2020)</li>
+<li><i><a href="/wiki/Channel_5_(web_channel)" title="Channel 5 (web channel)">Channel 5 with Andrew Callaghan</a></i> (2021)</li>
+<li><i><a href="/wiki/Hasan_Piker" title="Hasan Piker">HasanAbi</a></i> (2022)</li>
+<li><i><a href="/wiki/Hasan_Piker" title="Hasan Piker">HasanAbi</a></i> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Science and Engineering</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a class="mw-selflink selflink">Mark Rober</a> (2021)</li>
+<li><a class="mw-selflink selflink">Mark Rober</a> (2022)</li>
+<li><a href="/wiki/I_did_a_thing" class="mw-redirect" title="I did a thing">I did a thing</a> (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Sports</th><td class="navbox-list-with-group navbox-list navbox-odd" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><i><a href="/wiki/Red_Bull" title="Red Bull">Red Bull</a></i> (2014)</li>
+<li><i><a href="/wiki/Dude_Perfect" title="Dude Perfect">Dude Perfect</a></i> (2015)</li>
+<li><i><a href="/wiki/30_for_30#30_for_30_Shorts" title="30 for 30">30 for 30 Shorts</a></i> (2016)</li>
+<li><i>Cold As Balls</i> (2018)</li>
+<li><a href="/wiki/Ryan_Garcia" title="Ryan Garcia">Ryan Garcia</a> (2020)</li>
+<li><a href="/wiki/Donald_De_La_Haye" title="Donald De La Haye">Deestroying</a> (2021)</li>
+<li>Jesser (2022)</li>
+<li>Jesser (2023)</li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:13em">Technology</th><td class="navbox-list-with-group navbox-list navbox-even" style="padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Marques_Brownlee" title="Marques Brownlee">Marques Brownlee</a> (2019)</li>
+<li><a href="/wiki/Marques_Brownlee" title="Marques Brownlee">Marques Brownlee</a> (2020)</li>
+<li><a href="/wiki/Mrwhosetheboss" title="Mrwhosetheboss">Mrwhosetheboss</a> (2021)</li>
+<li><a href="/wiki/Mrwhosetheboss" title="Mrwhosetheboss">Mrwhosetheboss</a> (2022)</li>
+<li><a href="/wiki/Marques_Brownlee" title="Marques Brownlee">Marques Brownlee</a> (2023)</li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2" style="background: #F3E5AB"><div>† = category was merged from others
+‡ = category was renamed</div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw2276
+Cached time: 20231127213329
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.842 seconds
+Real time usage: 1.001 seconds
+Preprocessor visited node count: 5917/1000000
+Post‐expand include size: 192823/2097152 bytes
+Template argument size: 7238/2097152 bytes
+Highest expansion depth: 22/100
+Expensive parser function count: 3/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 178130/5000000 bytes
+Lua time usage: 0.525/10.000 seconds
+Lua memory usage: 12013034/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  874.895      1 -total
+ 38.10%  333.350      1 Template:Infobox_person
+ 34.21%  299.321      2 Template:Reflist
+ 21.58%  188.767     27 Template:Cite_web
+ 18.55%  162.331      1 Template:Infobox_YouTube_personality
+ 17.93%  156.882      1 Template:Infobox
+ 16.87%  147.587      9 Template:Br_separated_entries
+  9.24%   80.877     17 Template:Cite_news
+  7.58%   66.327      5 Template:Navbox
+  6.96%   60.927     21 Template:Pluralize_from_text
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:50482521-0!canonical and timestamp 20231127213328 and revision id 1185974641. Rendering was triggered because: page-view
+ -->
+</div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Mark_Rober&amp;oldid=1185974641">https://en.wikipedia.org/w/index.php?title=Mark_Rober&amp;oldid=1185974641</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:1980_births" title="Category:1980 births">1980 births</a></li><li><a href="/wiki/Category:21st-century_American_inventors" title="Category:21st-century American inventors">21st-century American inventors</a></li><li><a href="/wiki/Category:American_mechanical_engineers" title="Category:American mechanical engineers">American mechanical engineers</a></li><li><a href="/wiki/Category:American_YouTubers" title="Category:American YouTubers">American YouTubers</a></li><li><a href="/wiki/Category:Apple_Inc._employees" title="Category:Apple Inc. employees">Apple Inc. employees</a></li><li><a href="/wiki/Category:Autism_activists" title="Category:Autism activists">Autism activists</a></li><li><a href="/wiki/Category:Brea_Olinda_High_School_alumni" title="Category:Brea Olinda High School alumni">Brea Olinda High School alumni</a></li><li><a href="/wiki/Category:Brigham_Young_University_alumni" title="Category:Brigham Young University alumni">Brigham Young University alumni</a></li><li><a href="/wiki/Category:Charity_fundraisers_(people)" title="Category:Charity fundraisers (people)">Charity fundraisers (people)</a></li><li><a href="/wiki/Category:DIY_YouTubers" title="Category:DIY YouTubers">DIY YouTubers</a></li><li><a href="/wiki/Category:Educational_and_science_YouTubers" title="Category:Educational and science YouTubers">Educational and science YouTubers</a></li><li><a href="/wiki/Category:Living_people" title="Category:Living people">Living people</a></li><li><a href="/wiki/Category:NASA_people" title="Category:NASA people">NASA people</a></li><li><a href="/wiki/Category:Online_edutainment" title="Category:Online edutainment">Online edutainment</a></li><li><a href="/wiki/Category:People_from_Orange_County,_California" title="Category:People from Orange County, California">People from Orange County, California</a></li><li><a href="/wiki/Category:Science_communicators" title="Category:Science communicators">Science communicators</a></li><li><a href="/wiki/Category:Science-related_YouTube_channels" title="Category:Science-related YouTube channels">Science-related YouTube channels</a></li><li><a href="/wiki/Category:University_of_Southern_California_alumni" title="Category:University of Southern California alumni">University of Southern California alumni</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_indefinitely_semi-protected_pages" title="Category:Wikipedia indefinitely semi-protected pages">Wikipedia indefinitely semi-protected pages</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_April_2021" title="Category:Use mdy dates from April 2021">Use mdy dates from April 2021</a></li><li><a href="/wiki/Category:Pages_using_embedded_infobox_templates_with_the_title_parameter" title="Category:Pages using embedded infobox templates with the title parameter">Pages using embedded infobox templates with the title parameter</a></li><li><a href="/wiki/Category:Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 20 November 2023, at 03:45<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative Commons Attribution-ShareAlike License 4.0</a><a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Mark_Rober&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy" /></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-settings" id="p-dock-bottom">
+	<ul>
+		<li>
+		
+		<button class="cdx-button cdx-button--icon-only vector-limited-width-toggle" id=""><span class="vector-icon mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen"></span>
+
+<span>Toggle limited content width</span>
+</button>
+</li>
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw2276","wgBackendResponseTime":1148,"wgPageParseReport":{"limitreport":{"cputime":"0.842","walltime":"1.001","ppvisitednodes":{"value":5917,"limit":1000000},"postexpandincludesize":{"value":192823,"limit":2097152},"templateargumentsize":{"value":7238,"limit":2097152},"expansiondepth":{"value":22,"limit":100},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":178130,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  874.895      1 -total"," 38.10%  333.350      1 Template:Infobox_person"," 34.21%  299.321      2 Template:Reflist"," 21.58%  188.767     27 Template:Cite_web"," 18.55%  162.331      1 Template:Infobox_YouTube_personality"," 17.93%  156.882      1 Template:Infobox"," 16.87%  147.587      9 Template:Br_separated_entries","  9.24%   80.877     17 Template:Cite_news","  7.58%   66.327      5 Template:Navbox","  6.96%   60.927     21 Template:Pluralize_from_text"]},"scribunto":{"limitreport-timeusage":{"value":"0.525","limit":"10.000"},"limitreport-memusage":{"value":12013034,"limit":52428800}},"cachereport":{"origin":"mw2276","timestamp":"20231127213329","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Mark Rober","url":"https:\/\/en.wikipedia.org\/wiki\/Mark_Rober","sameAs":"http:\/\/www.wikidata.org\/entity\/Q24088544","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q24088544","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2016-05-09T00:55:26Z","dateModified":"2023-11-20T03:45:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/27\/Mark_Rober_2020.jpg","headline":"American YouTuber, engineer and inventor"}</script>
+</body>
+</html>
