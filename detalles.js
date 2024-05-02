@@ -70,17 +70,17 @@ document.addEventListener("DOMContentLoaded", function () {
               marker.setLatLng(latlng);
               map.setView(latlng, 12); // Ajusta el mapa y el marcador a la ubicación
           } else {
-              alert("We couldn't find your address direction.");
+              alert("No hemos encontrado tu dirección.");
           }
       })
       .catch(error => {
           console.error("Error al geocodificar la dirección:", error);
-          alert("Bad direction.");
+          alert("Dirección erronea.");
      });
     } else {
       // Si no se encuentra la mascota con el ID proporcionado, mostrar un mensaje de error
       const detallesMascota = document.getElementById("detallesMascota");
-      detallesMascota.textContent = "Pet not found.";
+      detallesMascota.textContent = "Mascota no encontrada.";
     }
   });
 

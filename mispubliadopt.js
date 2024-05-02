@@ -54,7 +54,7 @@ function mostrarMascotas() {
           <div class="profile__info">
           <h3>${mascotasadoptadas.nombre}</h3>
           </div>
-          <div class="profile__cta"><a class="button" onclick="verDetalles(${mascotasadoptadas.id})">Details</a></div>
+          <div class="profile__cta"><a class="button" onclick="verDetalles(${mascotasadoptadas.id})">Detalles</a></div>
           </div>
       `;
 
