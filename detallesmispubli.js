@@ -1,16 +1,31 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Obtener el ID de la mascota de la URL
-    
     const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get("id");
+  const id = urlParams.get("id");
+  const userId = sessionStorage.getItem('userId');
+    let mascota;
   
-    // Buscar la mascota con el ID correspondiente en el arreglo 'mascotas'
-    const mascota = mascotas.find((m) => m.id === parseInt(id));
+    fetch("https://nodetest-p2ot.onrender.com/obtenerMascotaPerdida", {
+      method: "POST",
+      body: JSON.stringify({
+        id: id,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status == "ok") {
+          mascota = data.body[0];
+          llenarDatos(mascota);
+        } else {
+          const detallesMascota = document.getElementById("detallesMascota");
+        detallesMascota.textContent = "Mascota no encontrada.";
+          console.log(data.error);
+        }
+      });
           
-            if (mascota) {
-              // Crear elementos HTML para mostrar los detalles de la mascota, incluida la imagen
-
-          
+      function llenarDatos(mascota) {
               const tiposDeDatos = {
                 nombre: 'text',
                 raza: 'text',
@@ -70,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
                       input.type = "file"
                       input.id = "imagenInput"
                       input.accept = "image/*"
-                      console.log(input)
                       div1.appendChild(input)
                     } else{
                       div2.appendChild(label);
@@ -105,29 +119,32 @@ document.addEventListener("DOMContentLoaded", function () {
           console.error("Error al geocodificar la dirección:", error);
           alert("Ocurrió un error al geocodificar la dirección.");
      });
-
-    } else {
-      // Si no se encuentra la mascota con el ID proporcionado, mostrar un mensaje de error
-      const detallesMascota = document.getElementById("detallesMascota");
-      detallesMascota.textContent = "Mascota no encontrada.";
     }
 
     
-    document.getElementById("eliminar").addEventListener("click", function() {
+    document.getElementById("eliminar").addEventListener("click", () => {
       eliminarMascota(id);
   });
 
   function eliminarMascota(id) {
-    const index = mascotas.findIndex(mascota => {
-      if(mascota.id == id){
-        return mascota
-      }
-    });
-
-    if (index !== -1) {
-        mascotas.splice(index, 1);
-        guardarMascotas();
-    }
+    fetch("https://nodetest-p2ot.onrender.com/eliminarPerdida", {
+      method: "DELETE",
+      body: JSON.stringify({
+        id: id,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status == "ok") {
+          alert("Mascota eliminada correctamente")
+          window.location.href = "/mispubli.html"
+        } else {
+          console.log(data.error);
+        }
+      });
 }
 
 document.getElementById("modificar_publicacion").addEventListener('click',() => {
@@ -135,17 +152,7 @@ document.getElementById("modificar_publicacion").addEventListener('click',() => 
 })
 
 const btn_guardar_cambios = document.getElementById('btn_guardar_cambios')
-
 btn_guardar_cambios.addEventListener('click',()=>{
-  const index = mascotas.findIndex(mascota => {
-    if(Number(mascota.id) == Number(id)){
-      return mascota
-    }
-  });
-
-  if (index !== -1) {
-      mascotas.splice(index, 1);
-  }
 
   const nombre = document.getElementById('nombre').value;
   const especie = document.getElementById('especie').value;
@@ -154,37 +161,46 @@ btn_guardar_cambios.addEventListener('click',()=>{
   const edad = parseInt(document.getElementById('edad').value);
   const sexo = document.getElementById('sexo').value;
   const ubicacion = document.getElementById('ubicacion').value;
-  const contactoNombre = document.getElementById('contactoNombre').value;
-  const telefono = document.getElementById('telefono').value;
-  const email = document.getElementById('email').value;
+  const contactoNombre = document.getElementById("nombreContacto").value;
+  const telefono = document.getElementById('telefonoContacto').value;
+  const email = document.getElementById('correoContacto').value;
   const imagenInput = document.getElementById('imagen').src;
   const descripcion = document.getElementById('descripcion').value;
 
-  console.log(imagenInput)
-
   if (nombre && especie && raza && color && !isNaN(edad) && ubicacion && contactoNombre && telefono && email && descripcion) {
 
-    const mascota = {
-        iduser: Number(document.getElementById('iduser').value),
-        id: Number(document.getElementById('id').value),
-        nombre,
-        especie,
-        raza,
-        color,
-        edad,
-        sexo,
-        ubicacion,
-        contacto: {
-            nombre: contactoNombre,
-            telefono,
-            email,
-        },
-        imagen: imagenInput,
-        descripcion,
-    };
-    mascotas.push(mascota);
-    localStorage.setItem('mascotas', JSON.stringify(mascotas));
-
+    fetch("https://nodetest-p2ot.onrender.com/modificarPerdida", {
+      method: "PATCH",
+      body: JSON.stringify({
+        id: mascota.id,
+        nombre: nombre,
+        especie: especie,
+        raza: raza,
+        color: color,
+        edad: edad,
+        sexo: sexo,
+        ubicacion: ubicacion,
+        nombreContacto: contactoNombre,
+        telefonoContacto: telefono,
+        correoContacto: email,
+        imagen: "vacio",
+        descripcion: descripcion,
+        id_usuario: userId,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status == "ok") {
+          alert("Mascota modificada correctamente");
+          window.location.href = "/mispubli.html";
+        } else {
+          alert("Error al modificar mascota")
+          console.log(data.error);
+        }
+      });
 } else {
     alert('Por favor, completa todos los campos.');
 }
@@ -205,9 +221,6 @@ function modificarPublicacion(){
   }
 
   div1.children[1].disabled = false
-
-  console.log(imagen)
-
   btn_guardar_cambios.hidden = false;
 }
 

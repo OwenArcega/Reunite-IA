@@ -1,48 +1,37 @@
-// Variable global para almacenar los datos de mascotas
-let mascotas = [];
+document.addEventListener('DOMContentLoaded', ()=>{
+  let mascotas = [];
+  let userId = sessionStorage.getItem('userId');
 
-let users = JSON.parse(localStorage.getItem('users')) || [];
+  // Función para cargar las mascotas desde el JSON y mostrarlas
+  function cargarMascotas() {
+    fetch("https://nodetest-p2ot.onrender.com/obtenerPerdidasUsuario", {
+      method: "POST",
+      body: JSON.stringify({
+        id: userId,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status == "ok") {
+          mascotas = data.body;
+          mostrarMascotas();
+        } else {
+          alert("Error cargando registros.")
+          console.log(data.error);
+        }
+      });
 
-let myid = localStorage.getItem('myide');
-console.log(myid); // Imprime: "Hola, mundo!"
-var myinfo;
-console.log(typeof [])
-
-for(i=0; i < users.length; i++){
-  if(users[i].id == myid){
-    console.log(users[i])
-    myinfo = users[i]
-  }
-}
-
-
-
-
-
-
-// Función para cargar las mascotas desde el JSON y mostrarlas
-function cargarMascotas() {
-  const mascotasGuardadas = localStorage.getItem('mascotas');
-  console.log(mascotasGuardadas);
-  if (mascotasGuardadas) {
-    // Parsea las mascotas guardadas del localStorage
-    const todasLasMascotas = JSON.parse(mascotasGuardadas);
-
-    // Filtra las mascotas del usuario actual basándote en su id
-    mascotas = todasLasMascotas.filter(mascota => mascota.iduser === myinfo.id);
-
-    // Muestra las mascotas del usuario actual
-    mostrarMascotas();
-  }
   }
 
+  // Función para mostrar la lista de mascotas
+  function mostrarMascotas() {
+    const listaMascotas = document.getElementById('listaMascotas');
+    listaMascotas.innerHTML = ''; // Limpia el contenido anterior
 
-// Función para mostrar la lista de mascotas
-function mostrarMascotas() {
-  const listaMascotas = document.getElementById('listaMascotas');
-  listaMascotas.innerHTML = ''; // Limpia el contenido anterior
-
-  mascotas.forEach((mascota) => {
+    mascotas.forEach((mascota) => {
       const divMascota = document.createElement('div');
       divMascota.classList.add('mascota-container'); // Agrega la clase al div
 
@@ -54,19 +43,14 @@ function mostrarMascotas() {
           <div class="profile__info">
           <h3>${mascota.nombre}</h3>
           </div>
-          <div class="profile__cta"><a class="button" onclick="verDetalles(${mascota.id})">Detalles</a></div>
+          <div class="profile__cta"><a id=mascota-${mascota.id} class="button">Detalles</a></div>
           </div>
       `;
 
       listaMascotas.appendChild(divMascota); // Agrega el div de la mascota directamente al contenedor
-  });
-}
-// Función para eliminar una mascota
-function eliminarMascota(index) {
-  mascotas.splice(index, 1);
-  mostrarMascotas();
-  guardarMascotas();
-}
+      document.getElementById(`mascota-${mascota.id}`).addEventListener('click', () => verDetalles(mascota.id));
+    });
+  }
   function mostrarImagen() {
     const imagenInput = document.getElementById('imagen');
     const imagenMostrada = document.getElementById('imagenMostrada');
@@ -87,7 +71,12 @@ function eliminarMascota(index) {
   }
 
   function verDetalles(id) {
-    // Redirigir a la página de detalles de la mascota usando el ID
     window.location.href = `detallesmispubli.html?id=${id}`;
   }
+  
+  const agregarBtn = document.getElementById('agregarBtn');
+  agregarBtn.addEventListener('click', () => {
+    window.location.href = "./agregar.html";
+  })
   cargarMascotas();
+});

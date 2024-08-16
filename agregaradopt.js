@@ -35,74 +35,99 @@ function guardarMascotas() {
   }
 
 // Función para agregar una mascota
-function agregarMascota() {
-    event.preventDefault(); // Previene que el formulario se envíe y la página se recargue
+const agregarMascotaBtn = document.getElementById("agregarMascotaBtn");
+agregarMascotaBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  const nombre = document.getElementById("nombre").value;
+  const especie = document.getElementById("especie").value;
+  const raza = document.getElementById("raza").value;
+  const color = document.getElementById("color").value;
+  const edad = parseInt(document.getElementById("edad").value);
+  const sexo = document.getElementById("sexo").value;
+  const ubicacion = document.getElementById("ubicacion").value;
+  const contactoNombre = document.getElementById("contactoNombre").value;
+  const telefono = document.getElementById("telefono").value;
+  const email = document.getElementById("email").value;
+  const imagenInput = document.getElementById("imageInput");
 
-    const nombre = document.getElementById('nombre').value;
-    const especie = document.getElementById('especie').value;
-    const raza = document.getElementById('raza').value;
-    const color = document.getElementById('color').value;
-    const edad = parseInt(document.getElementById('edad').value);
-    const sexo = document.getElementById('sexo').value;
-    const ubicacion = document.getElementById('ubicacion').value;
-    const contactoNombre = document.getElementById('contactoNombre').value;
-    const telefono = document.getElementById('telefono').value;
-    const email = document.getElementById('email').value;
-    const imagenInput = document.getElementById('imagen');
+  const imagenMostrada = document.getElementById("imagenMostrada");
+  const file = imagenInput.files[0];
 
-    // Agregar la función mostrarImagen aquí
-    const imagenMostrada = document.getElementById('imagenMostrada');
-    const file = imagenInput.files[0];
+  if (file) {
+    const reader = new FileReader();
 
-    if (file) {
-      const reader = new FileReader();
+    reader.onload = (e) => {
+      imagenMostrada.src = e.target.result;
+    };
 
-      reader.onload = (e) => {
-        imagenMostrada.src = e.target.result;
-      };
+    reader.readAsDataURL(file);
+  } else {
+    imagenMostrada.src = "";
+  }
 
-      reader.readAsDataURL(file);
-    } else {
-      // Si no se selecciona ningún archivo, se muestra una imagen vacía o un mensaje
-      imagenMostrada.src = '';
-    }
+  const descripcion = document.getElementById("descripcion").value;
 
-    const descripcion = document.getElementById('descripcion').value;
+  if (
+    nombre &&
+    especie &&
+    raza &&
+    color &&
+    !isNaN(edad) &&
+    ubicacion &&
+    contactoNombre &&
+    telefono &&
+    email &&
+    descripcion
+  ) {
+    const imagenSeleccionadaURL = document.getElementById("imagenMostrada").src;
 
-    if (nombre && especie && raza && color && !isNaN(edad) && ubicacion && contactoNombre && telefono && email && descripcion) {
-        const imagenSeleccionadaURL = document.getElementById('imagenMostrada').src;
-
-        const mascotaadop = {
-            iduser: myinfo.id,
-            id: mascotasadoptadas.length + 1,
-            nombre,
-            especie,
-            raza,
-            color,
-            edad,
-            sexo,
-            ubicacion,
-            contacto: {
-                nombre: contactoNombre,
-                telefono,
-                email,
+    fetch("https://nodetest-p2ot.onrender.com/publicarImagen", {
+      method: "POST",
+      body: JSON.stringify({
+        imagen: "vacio",
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.status == "ok") {
+          fetch("https://nodetest-p2ot.onrender.com/registrarAdopcion", {
+            method: "POST",
+            body: JSON.stringify({
+              nombre: nombre,
+              especie: especie,
+              raza: raza,
+              color: color,
+              edad: edad,
+              sexo: sexo,
+              ubicacion: ubicacion,
+              nombreContacto: contactoNombre,
+              telefonoContacto: telefono,
+              correoContacto: email,
+              imagen: "vacio",
+              descripcion: descripcion,
+            }),
+            headers: {
+              "Content-Type": "application/json",
             },
-            imagen: imagenSeleccionadaURL,
-            descripcion,
-        };
-        //alert("Se ha registrado correctamente");
-
-        // Recuperar mascotas desde localStorage, agregar la nueva mascota y guardarlas nuevamente
-        mascotasadoptadas = JSON.parse(localStorage.getItem('mascotasadoptadas')) || [];
-        mascotasadoptadas.push(mascotaadop);
-        console.log(mascotasadoptadas);
-        localStorage.setItem('mascotasadoptadas', JSON.stringify(mascotasadoptadas));
-
-       // limpiarFormulario();
-    } else {
-        alert('Por favor, completa todos los campos.');
-    }
-}
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              console.log(data.status);
+            });
+        } else if (data.status == "error") {
+          alert(data.error);
+        }
+      });
+  } else {
+    // Si no se selecciona ningún archivo, se muestra una imagen vacía o un mensaje
+    source = "";
+    imagenMostrada.src = "";
+  }
+});
 
 // Función para limpiar el formulario
 function limpiarFormulario() {

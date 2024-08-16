@@ -3,43 +3,55 @@ document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get("id");
   
-    // Buscar la mascota con el ID correspondiente en el arreglo 'mascotas'
-    const mascotaadop = mascotasadoptadas.find((m) => m.id === parseInt(id));
+    fetch("https://nodetest-p2ot.onrender.com/obtenerMascotaAdopcion", {
+      method: "POST",
+      body: JSON.stringify({
+        id: id,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.status == "ok") {
+          const mascota = data.body[0];
+          llenarDatos(mascota);
+        } else {
+          console.log(data.error);
+        }
+      });
 
-    console.log(mascotaadop)
   
-    if (mascotaadop) {
-      // Crear elementos HTML para mostrar los detalles de la mascota, incluida la imagen
-      const detallesMascota = document.getElementById("detallesMascota");
+    function llenarDatos(mascotaadop) {
   
       const imagen = document.getElementById("imagenMostrada");
       imagen.src = mascotaadop.imagen;
-      console.log(imagen.src)
       imagen.alt = "Imagen de la mascota";
   
       const nombreRaza = document.createElement("p");
-      nombreRaza.textContent = `Name: ${mascota.nombre}, Breed: ${mascota.raza}`;
+      nombreRaza.textContent = `Name: ${mascotaadop.nombre}, Breed: ${mascotaadop.raza}`;
   
       const especie = document.createElement("p");
-      especie.textContent = `Specie: ${mascota.especie}`;
+      especie.textContent = `Specie: ${mascotaadop.especie}`;
   
       const color = document.createElement("p");
-      color.textContent = `Color: ${mascota.color}`;
+      color.textContent = `Color: ${mascotaadop.color}`;
   
       const edad = document.createElement("p");
-      edad.textContent = `Age: ${mascota.edad} years`;
+      edad.textContent = `Age: ${mascotaadop.edad} years`;
   
       const sexo = document.createElement("p");
-      sexo.textContent = `Sex: ${mascota.sexo}`;
+      sexo.textContent = `Sex: ${mascotaadop.sexo}`;
   
       const ubicacion = document.createElement("p");
-      ubicacion.textContent = `Location: ${mascota.ubicacion}`;
+      ubicacion.textContent = `Location: ${mascotaadop.ubicacion}`;
   
       const contacto = document.createElement("p");
-      contacto.textContent = `Contact: ${mascota.contacto.nombre}, Cellphone: ${mascota.contacto.telefono}, Email: ${mascota.contacto.email}`;
+      contacto.textContent = `Contact: ${mascotaadop.nombreContacto}, Cellphone: ${mascotaadop.telefonoContacto}, Email: ${mascotaadop.correoContacto}`;
   
       const descripcion = document.createElement("p");
-      descripcion.textContent = `Description: ${mascota.descripcion}`;
+      descripcion.textContent = `Description: ${mascotaadop.descripcion}`;
   
       // Agregar los elementos al contenedor en la página detalles.html
       div1.appendChild(imagen);
@@ -80,10 +92,6 @@ document.addEventListener("DOMContentLoaded", function () {
           console.error("Error al geocodificar la dirección:", error);
           alert("Dirección errónea.");
      });
-    } else {
-      // Si no se encuentra la mascota con el ID proporcionado, mostrar un mensaje de error
-      const detallesMascota = document.getElementById("detallesMascota");
-      detallesMascota.textContent = "Mascota no encontrada.";
     }
   });
 

@@ -1,40 +1,32 @@
 // Variable global para almacenar los datos de mascotas
 let mascotasadoptadas = [];
 
-let users = JSON.parse(localStorage.getItem('users')) || [];
-let myid = localStorage.getItem('myide');
-var myinfo;
-
-for(i=0; i < users.length; i++){
-  if(users[i].id == myid){
-    myinfo = users[i]
-  }
-}
 
 // Función para cargar las mascotas desde el JSON y mostrarlas
 function cargarMascotas() {
   const mascotasGuardadas = localStorage.getItem('mascotasadoptadas');
-  if (mascotasGuardadas) {
-      mascotasadoptadas = JSON.parse(mascotasGuardadas);
+  fetch("https://nodetest-p2ot.onrender.com/obtenerAdopcion", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      mascotasadoptadas = data.body;
       mostrarMascotas();
-  } else {
-      fetch('mascotasadoptadas.json')
-        .then((response) => response.json())
-        .then((data) => {
-          mascotasadoptadas = data;
-          mostrarMascotas();
-        })
-        .catch((error) => {
-          console.error('Error al cargar mascotas:', error);
-        });
-    }
+    })
+    .catch((error) => {
+      console.error("Error: " + error);
+      alert("Error al cargar mascotas");
+    });
   }
 
 
 // Función para mostrar la lista de mascotas
 function mostrarMascotas() {
   const listaMascotas = document.getElementById('listaMascotas');
-  listaMascotas.innerHTML = ''; // Limpia el contenido anterior
+  listaMascotas.innerHTML = '';
 
   const filtroBusqueda = document.getElementById('busqueda').value.toLowerCase();
 
@@ -64,12 +56,6 @@ function mostrarMascotas() {
 function buscarMascotas() {
   mostrarMascotas(); // Esto activará el filtro al hacer clic en el botón de búsqueda
 }
-// Función para eliminar una mascota
-function eliminarMascota(index) {
-  mascotasadoptadas.splice(index, 1);
-  mostrarMascotas();
-  guardarMascotas();
-}
   function mostrarImagen() {
     const imagenInput = document.getElementById('imagen');
     const imagenMostrada = document.getElementById('imagenMostrada');
@@ -90,7 +76,6 @@ function eliminarMascota(index) {
   }
 
   function verDetalles(id) {
-    // Redirigir a la página de detalles de la mascota usando el ID
     window.location.href = `detallesadopt.html?id=${id}`;
   }
   cargarMascotas();
