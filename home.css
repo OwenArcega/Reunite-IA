@@ -1,0 +1,122 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa; /* Pearl color */
+      color: #343a40; /* Dark blue */
+      line-height: 1.6;
+    }
+
+    .menu {
+      background-color: #2c3e50; /* Dark blue */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .menu:hover {
+      background-color: #34495e; /* Change color on hover */
+    }
+
+    .menu ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .menu ul:hover {
+      transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    .menu ul li {
+      margin: 0 40px; /* Increase space between menu items */
+      transition: transform 0.3s ease;
+    }
+
+    .menu ul li:hover {
+      transform: scale(1.2); /* Enlarge menu items on hover */
+      text-decoration: underline;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px; /* Increase font size */
+      transition: color 0.3s ease;
+    }
+
+    header {
+      background-color: #445e79; /* Dark blue */
+      color: #ffffff; /* White text */
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #e9ecef; /* Pearl color */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #212529; /* Dark blue */
+    }
+
+    p {
+      color: #495057; /* Dark blue */
+    }
+
+    ul {
+      color: #495057; /* Dark blue */
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+
+    button {
+      background-color: #007bff; /* Dark blue */
+      color: #ffffff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+
+    footer {
+      background-color: #445e79; /* Dark blue */
+      color: #ffffff; /* White text */
+      text-align: center;
+      padding: 10px;
+      width: 98.7%;
+      bottom: 0;
+    }
+
+    header p {
+      color: white;
+    }
+
+    footer p {
+      color: white;
+    }
+
+    .menu-selected {
+      transform: scale(1.5);
+      border: 1px ;
+    }
