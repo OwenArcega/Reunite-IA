@@ -25,8 +25,8 @@ agregarMascotaBtn.addEventListener('click', (e) => {
   let imagenMostrada = document.getElementById('imagenMostrada').src;
   
   if (!existeImagen) imagenMostrada = "";
-  imagenMostrada = imagenMostrada.slice(23, -1);
-  console.log(imagenMostrada)
+  imagenMostrada = imagenMostrada.slice(23, imagenMostrada.lenght);
+
   if (!!nombre && !!especie && !!raza && !!color && !isNaN(edad) && !!sexo && !!ubicacion && !!contactoNombre && !!telefono && !!email && !!descripcion) {
       fetch("https://nodetest-p2ot.onrender.com/registrarPerdida", {
         method: "POST",
@@ -47,37 +47,32 @@ agregarMascotaBtn.addEventListener('click', (e) => {
         }),
         headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*"
         },
         mode: "cors"
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
+          if (data.status == "ok") {
+            alert("Mascota guardada correctamente");
+          } else {
+            console.log(data.error)
+            alert("Error al guardar la mascota")
+          }
           limpiarFormulario()
-          alert("Mascota guardada correctamente");
         });
   } else {
-    source = "";
-    imagenMostrada.src = "";
+    alert("Por favor llene todos los campos.");
   }
 })
 
 
 function limpiarFormulario() {
-    document.getElementById('nombre').value = '';
-    document.getElementById('especie').value = '';
-    document.getElementById('raza').value = '';
-    document.getElementById('color').value = '';
-    document.getElementById('edad').value = '';
-    document.getElementById('sexo').value = 'Macho';
-    document.getElementById('ubicacion').value = '';
-    document.getElementById('contactoNombre').value = '';
-    document.getElementById('telefono').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('imagen').value = '';
-    document.getElementById('descripcion').value = '';
-    }
+  const inputs = document.getElementsByTagName('input');
+  for (let i = 0; i < inputs.length; i++){
+    inputs[i].value = "";
+  }
+  document.getElementById('descripcion').value = "";
+  }
 
     function mostrarImagen() {
       var imagen = document.getElementById("imagen").files[0];
