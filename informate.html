@@ -3,127 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
   <title>Información de mascotas perdidas</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background-color: #2c3e50;
-      color: #ecf0f1;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    section {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-    }
-
-    h2 {
-      color: #3498db;
-    }
-
-    p {
-      color: #555;
-    }
-
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-    }
-
-    footer {
-      background-color: #34495e;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      width: 100%;
-      bottom: 0;
-    }
-
-    footer p{
-      color: white;
-    }
-
-    .menu {
-      background-color: #2c3e50;
-      color: #fff;
-      padding: 40px;
-      text-align: center;
-      border-radius: 5px;
-      margin: 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      transition: background-color 0.3s ease;
-    }
-
-    .menu:hover {
-      background-color: #34495e;
-    }
-
-    .menu ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      transition: transform 0.3s ease;
-    }
-
-    .menu ul:hover {
-      transform: scale(1.05);
-    }
-
-    .menu ul li {
-      margin: 0 40px;
-      transition: transform 0.3s ease;
-    }
-
-    .menu ul li:hover {
-      transform: scale(1.1);
-    }
-
-    .menu a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: 500;
-      font-size: 18px;
-      transition: color 0.3s ease;
-    }
-
-    .menu a:hover {
-      color: #333;
-    }
-  </style>
 </head>
 <body>
-    
-  <div class="menu">
+  <nav class="menu">
     <ul>
       <li><a href="home.html">Inicio</a></li>
       <li><a href="index.html">Mascotas perdidas</a></li>
       <li><a href="indexadopt.html">Mascotas en adopción</a></li>
-      <li><a href="informate.html">Infórmate</a></li>
+      <li class="menu-selected"><a href="informate.html">Infórmate</a></li>
     </ul>
-  </div>
-
+  </nav>
   <header>
     <h1>¿Qué hacer si encuentras una mascota perdida?</h1>
   </header>
+  <main>
 
-<h2>:
     <section>
         <h2>Capturar y Contener</h2>
         <p>
@@ -168,10 +64,9 @@
           Ya sea que conserves a la mascota perdida o la coloques bajo custodia en tu refugio local para animales, existen varias formas de ayudar a encontrar al propietario. Si es posible, toma una foto de la mascota y coloca volantes en el área donde fue encontrada. Asegúrate de distribuir volantes en las clínicas veterinarias locales también. Las plataformas de redes sociales como Facebook, Instagram y Twitter son excelentes para compartir información dentro de tu comunidad local y con amigos. Haz que la publicación sea "pública" para que otros también puedan compartirla. También debes publicar un informe de "encontrado" y una foto en sitios como Petango o Pet FBI. Si encontraste a la mascota en tu propio vecindario, ve casa por casa con una foto del animal y pregunta si alguien conoce al propietario. También puedes colocar un anuncio de "encontrado" en la sección de clasificados de tu periódico local o publicarlo en sitios de vecindarios como Ring o Nextdoor.
         </p>
     </section>
-
+  </main>
   <footer>
-    <p>&copy; Reunite 2024</p>
+    <p>&copy; 2024 Reunite - Encuentra y adopta</p>
   </footer>
-
 </body>
 </html>

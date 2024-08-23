@@ -2,9 +2,10 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa; /* Pearl color */
+      background-color: #ffffff; /* Pearl color */
       color: #343a40; /* Dark blue */
       line-height: 1.6;
+      box-sizing: border-box;
     }
 
     .menu {
@@ -25,12 +26,8 @@
     .menu ul {
       list-style: none;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       transition: transform 0.3s ease;
-    }
-
-    .menu ul:hover {
-      transform: scale(1.05); /* Slightly enlarge on hover */
     }
 
     .menu ul li {
@@ -39,8 +36,10 @@
     }
 
     .menu ul li:hover {
-      transform: scale(1.2); /* Enlarge menu items on hover */
+      transform: scale(1.2);
       text-decoration: underline;
+      text-decoration-color: white;
+
     }
 
     .menu a {
@@ -54,7 +53,7 @@
     header {
       background-color: #445e79; /* Dark blue */
       color: #ffffff; /* White text */
-      padding: 20px;
+      padding: 5px;
       text-align: center;
     }
 
@@ -69,6 +68,7 @@
       background-color: #e9ecef; /* Pearl color */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       border-radius: 5px;
+      text-align: justify;
     }
 
     h2 {
@@ -103,9 +103,11 @@
       background-color: #445e79; /* Dark blue */
       color: #ffffff; /* White text */
       text-align: center;
-      padding: 10px;
-      width: 98.7%;
+      /* padding: 10px; */
+      width: 100%;
       bottom: 0;
+      height: 50px;
+      padding: 1% 0;
     }
 
     header p {
@@ -117,6 +119,6 @@
     }
 
     .menu-selected {
-      transform: scale(1.5);
-      border: 1px ;
+      text-decoration: underline;
+      text-decoration-color: white;
     }

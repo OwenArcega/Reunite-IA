@@ -39,40 +39,40 @@
   }
   
   .menu:hover {
-    background-color: #34495e; /* Cambia el color al pasar el ratón sobre el menú */
-  }
-  
-  .menu ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s ease; /* Agrega una animación al menú al pasar el ratón sobre él */
-  }
-  
-  .menu ul:hover {
-    transform: scale(1.05); /* Hace que el menú se agrande ligeramente al pasar el ratón sobre él */
-  }
-  
-  .menu ul li {
-    margin: 0 40px; /* Aumenta el espacio entre elementos del menú */
-    transition: transform 0.3s ease; /* Agrega una animación a los elementos del menú */
-  }
-  
-  .menu ul li:hover {
-    transform: scale(1.1); /* Hace que los elementos del menú se agranden ligeramente al pasar el ratón sobre ellos */
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 18px; /* Aumenta el tamaño de la letra del menú */
-    transition: color 0.3s ease;
-  }
-  
-  .menu a:hover {
-    color: #333; /* Cambia el color al pasar el ratón sobre el enlace */
-  }
+      background-color: #34495e; /* Change color on hover */
+    }
+
+    .menu ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      transition: transform 0.3s ease;
+    }
+
+    .menu ul li {
+      margin: 0 40px; /* Increase space between menu items */
+      transition: transform 0.3s ease;
+    }
+
+    .menu ul li:hover {
+      transform: scale(1.2);
+      text-decoration: underline;
+      text-decoration-color: white;
+
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 18px; /* Increase font size */
+      transition: color 0.3s ease;
+    }
+
+    .menu-selected {
+      text-decoration: underline;
+      text-decoration-color: white;
+    }
 
   .busquedas {
     margin: 20px;

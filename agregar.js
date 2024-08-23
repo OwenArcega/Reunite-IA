@@ -122,11 +122,11 @@ function limpiarFormulario() {
 
     try {
       const response = await fetch(
-        'https://generativelanguage.googleapis.com/v1/models/gemini-pro-vision:generateContent?key=AIzaSyBL_T0hSOEMgDWAUg9WGOBtZ1q5IUv0Cd0',
+        "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyABQaARp_m_mF3UA3EOQXqKYCBZG1dkFGc",
         {
-          method: 'POST',
+          method: "POST",
           headers: {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body: JSON.stringify(requestBody),
         }
