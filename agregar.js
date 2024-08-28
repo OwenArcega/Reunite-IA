@@ -1,9 +1,7 @@
 // Variable global para almacenar los datos de mascotas
-let mascotas = JSON.parse(localStorage.getItem('mascotas')) || [];
-
-let users = JSON.parse(localStorage.getItem('users')) || [];
-
 let myid = localStorage.getItem('myide');
+
+const estadosDeMexico = ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México", "Michoacán de Ocampo", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas", "Ciudad de México"];
 
 let existeImagen = false;
 
@@ -17,16 +15,28 @@ agregarMascotaBtn.addEventListener('click', (e) => {
   const color = document.getElementById('color').value;
   const edad = parseInt(document.getElementById('edad').value);
   const sexo = document.getElementById('sexo').value;
-  const ubicacion = document.getElementById('ubicacion').value;
+  let ubicacion = document.getElementById('ubicacion').value.toLowerCase();
   const contactoNombre = document.getElementById('contactoNombre').value;
   const telefono = document.getElementById('telefono').value;
   const email = document.getElementById('email').value;
   const descripcion = document.getElementById("descripcion").value;
   let imagenMostrada = document.getElementById('imagenMostrada').src;
   
-  if (!existeImagen) imagenMostrada = "";
-  imagenMostrada = imagenMostrada.slice(23, imagenMostrada.lenght);
+  let encontrado = false;
+  ubicacion = ubicacion.toLowerCase();
+  encontrado = estadosDeMexico.find((estado) =>
+    ubicacion.includes(estado.toLowerCase())
+  );
 
+  if (!encontrado) {
+    alert("Agrege un estado a la ubicación.");
+    return;
+  }
+
+  if (!existeImagen) imagenMostrada = "";
+  const mimePrefixRegex = /^data:image\/[a-zA-Z]+;base64,/;
+
+  imagenMostrada = imagenMostrada.replace(mimePrefixRegex, "");
   if (!!nombre && !!especie && !!raza && !!color && !isNaN(edad) && !!sexo && !!ubicacion && !!contactoNombre && !!telefono && !!email && !!descripcion) {
       fetch("https://nodetest-p2ot.onrender.com/registrarPerdida", {
         method: "POST",
@@ -98,60 +108,31 @@ function limpiarFormulario() {
   const telefono = document.getElementById('telefono');
   const email = document.getElementById('email');
 
-  imageInput.addEventListener('change', async () => {
-    const file = imageInput.files[0];
-    if (!file) return;
-    const imagen = await readFileAsBase64(file);
-    const requestBody = {
-      "contents": [
-        {
-          "parts": [
-            {
-              "text": "dame los siguientes datos si los encuentras en el póster: nombre, especie, raza, color, edad, sexo, localización o dirección en donde se perdió, nombre del contacto del dueño, teléfono y correo electrónico. Ten en cuenta los sinonimos de estas. Si no encuentras todos los datos, pásame los que encuentres. Dame la respuesta en JSON con los siguientes campos: nombre, especie, raza, color, edad, sexo, localización, nombre_del_contacto_del_dueño, teléfono y correo_electrónico."
-            },
-            {
-              "inlineData": {
-                "mimeType": "image/jpeg",
-                "data": `${imagen}`,
-              }
-            }
-          ]
-        }
-      ]
-    };
-
-    try {
-      const response = await fetch(
-        "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=AIzaSyABQaARp_m_mF3UA3EOQXqKYCBZG1dkFGc",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(requestBody),
-        }
-      );
-
-      const data = await response.json();
-      let result = data.candidates[0].content.parts[0].text;
-
-      // Limpiar posibles caracteres inesperados
-      result = result.trim();
-      if (result.startsWith('```json')) {
-        result = result.replace(/^```json/, '').replace(/```$/, '').trim();
-      }
-
-      let dataObj;
-      try {
-        dataObj = JSON.parse(result);
-        updateInputFields(dataObj);
-      } catch (parseError) {
-        console.error('Error parsing JSON:', parseError, result);
-      }
-    } catch (error) {
-      console.error('Error:', error);
+imageInput.addEventListener("change", async () => {
+  const file = imageInput.files[0];
+  if (!file) return;
+  const imagen = await readFileAsBase64(file);
+  const response = await fetch(
+    "https://nodetest-p2ot.onrender.com/obtenerInfo",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        imagen: imagen,
+      }),
     }
-  });
+  )
+    .then((res) => res.json())
+    .then((data) => {
+      try {
+        updateInputFields(data);
+      } catch (parseError) {
+        console.error("Error parsing JSON:", parseError, data);
+      }
+    });
+});
 
   function readFileAsBase64(file) {
     return new Promise((resolve, reject) => {
@@ -163,7 +144,6 @@ function limpiarFormulario() {
   }
 
   function updateInputFields(dataObj) {
-    console.log(dataObj);
     nombre.value = dataObj['nombre'] || '';
     especie.value = dataObj['especie'] || '';
     raza.value = dataObj['raza'] || '';

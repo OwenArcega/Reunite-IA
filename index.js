@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const misPublicacionesBtn = document.getElementById('misPublicacionesBtn');
+  
   misPublicacionesBtn.addEventListener('click', () => {
     window.location.href = "./mispubli.html";
   })

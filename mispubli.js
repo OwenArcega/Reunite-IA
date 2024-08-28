@@ -51,24 +51,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
       document.getElementById(`mascota-${mascota.id}`).addEventListener('click', () => verDetalles(mascota.id));
     });
   }
-  function mostrarImagen() {
-    const imagenInput = document.getElementById('imagen');
-    const imagenMostrada = document.getElementById('imagenMostrada');
-    const file = imagenInput.files[0];
-  
-    if (file) {
-      const reader = new FileReader();
-  
-      reader.onload = (e) => {
-        imagenMostrada.src = e.target.result;
-      };
-  
-      reader.readAsDataURL(file);
-    } else {
-      // Si no se selecciona ningún archivo, se muestra una imagen vacía o un mensaje
-      imagenMostrada.src = '';
-    }
-  }
 
   function verDetalles(id) {
     window.location.href = `detallesmispubli.html?id=${id}`;

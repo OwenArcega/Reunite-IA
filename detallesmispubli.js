@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const estadosDeMexico = ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México","Estado de Mexico" , "Michoacán de Ocampo","Michoacan de Ocampo","Morelos", "Nayarit", "Nuevo León","Nuevo Leon","Oaxaca", "Puebla", "Querétaro","Queretaro", "Quintana Roo", "San Luis Potosí","San Luis Potosi", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán","Yucatan", "Zacatecas", "Ciudad de México","Ciudad de Mexico","CDMX"];
+
     const urlParams = new URLSearchParams(window.location.search);
   const id = urlParams.get("id");
   const userId = sessionStorage.getItem('userId');
@@ -40,60 +42,62 @@ document.addEventListener("DOMContentLoaded", function () {
                 descripcion: 'text'
               };
           
-              for (const propiedad in mascota) {
-                if (mascota.hasOwnProperty(propiedad)) {
-                  const valor = mascota[propiedad];
-                  const tipoDeDato = tiposDeDatos[propiedad] || 'text';
+        for (const propiedad in mascota) {
+          if (propiedad == "id" || propiedad == "id_usuario") {
+          } else {
+            if (mascota.hasOwnProperty(propiedad)) {
+              const valor = mascota[propiedad];
+              const tipoDeDato = tiposDeDatos[propiedad] || 'text';
           
-                  if(propiedad.toLowerCase() === 'contacto'){
-                    const label = document.createElement("label")
-                    label.textContent = "Contacto"
-                    div2.appendChild(label)
-                    for(const info in valor){
-                      const info_label = document.createElement('label')
-                      info_label.textContent = info
-                      div2.appendChild(info_label)
+              if (propiedad.toLowerCase() === 'contacto') {
+                const label = document.createElement("label")
+                label.textContent = "Contacto"
+                div2.appendChild(label)
+                for (const info in valor) {
+                  const info_label = document.createElement('label')
+                  info_label.textContent = info
+                  div2.appendChild(info_label)
 
-                      const input_info = document.createElement("input");
-                      input_info.type = "text";
-                      input_info.value = mascota['contacto'][info]
-                      input_info.disabled = true;
-                      if(info === "nombre"){
-                        input_info.id = "contactoNombre"
-                      } else{
-                        input_info.id = info;
-                      }
-                      div2.appendChild(input_info)
-                    }
-                  } else{
-                    const label = document.createElement("label");
-                    label.textContent = propiedad.charAt(0).toUpperCase() + propiedad.slice(1); // Capitaliza el nombre de la propiedad
-            
-                    const input = document.createElement("input");
-                    input.type = tipoDeDato;
-                    input.value = valor;
-                    input.disabled = true;
-                    input.id = propiedad;
-            
-                    // Agregar el label y el input al contenedor en la página detalles.html
-                    if(propiedad === "imagen"){
-                      const image = document.createElement('img')
-                      image.src = valor
-                      image.id = "imagen"
-                      div1.appendChild(image)
-
-                      input.type = "file"
-                      input.id = "imagenInput"
-                      input.accept = "image/*"
-                      div1.appendChild(input)
-                    } else{
-                      div2.appendChild(label);
-                      div2.appendChild(input);
-                    }
+                  const input_info = document.createElement("input");
+                  input_info.type = "text";
+                  input_info.value = mascota['contacto'][info]
+                  input_info.disabled = true;
+                  if (info === "nombre") {
+                    input_info.id = "contactoNombre"
+                  } else {
+                    input_info.id = info;
                   }
+                  div2.appendChild(input_info)
                 }
-              }         
+              } else {
+                const label = document.createElement("label");
+                label.textContent = propiedad.charAt(0).toUpperCase() + propiedad.slice(1); // Capitaliza el nombre de la propiedad
+            
+                const input = document.createElement("input");
+                input.type = tipoDeDato;
+                input.value = valor;
+                input.disabled = true;
+                input.id = propiedad;
+            
+                // Agregar el label y el input al contenedor en la página detalles.html
+                if (propiedad === "imagen") {
+                  const image = document.createElement('img')
+                  image.src = valor
+                  image.id = "imagen"
+                  div1.appendChild(image)
 
+                  input.type = "file"
+                  input.id = "imagenInput"
+                  input.accept = "image/*"
+                  div1.appendChild(input)
+                } else {
+                  div2.appendChild(label);
+                  div2.appendChild(input);
+                }
+              }
+            }
+          }
+        }
               var map = L.map('map').setView([0, 0], 14); // Establece la ubicación inicial y el nivel de zoom
 
       // Agrega un mapa base
@@ -160,12 +164,27 @@ btn_guardar_cambios.addEventListener('click',()=>{
   const color = document.getElementById('color').value;
   const edad = parseInt(document.getElementById('edad').value);
   const sexo = document.getElementById('sexo').value;
-  const ubicacion = document.getElementById('ubicacion').value;
+  let ubicacion = document.getElementById('ubicacion').value.toLowerCase();
   const contactoNombre = document.getElementById("nombreContacto").value;
   const telefono = document.getElementById('telefonoContacto').value;
   const email = document.getElementById('correoContacto').value;
-  const imagenInput = document.getElementById('imagen').src;
+  const imagen = document.getElementById('imagen').src;
   const descripcion = document.getElementById('descripcion').value;
+
+if (imagen.src == "") {
+  alert("Por favor agregue una imagen.");
+  return;
+}
+
+let encontrado = false;
+encontrado = estadosDeMexico.find((estado) =>
+  ubicacion.includes(estado.toLowerCase())
+);
+
+if (!encontrado) {
+  alert("Agrege un estado de la república a la ubicación.");
+  return;
+}
 
   if (nombre && especie && raza && color && !isNaN(edad) && ubicacion && contactoNombre && telefono && email && descripcion) {
 
@@ -183,7 +202,7 @@ btn_guardar_cambios.addEventListener('click',()=>{
         nombreContacto: contactoNombre,
         telefonoContacto: telefono,
         correoContacto: email,
-        imagen: "vacio",
+        imagen: imagen,
         descripcion: descripcion,
         id_usuario: userId,
       }),
@@ -211,11 +230,7 @@ function modificarPublicacion(){
   let children = div2.children
   for(let i = 0; i < children.length; i++){
     if(children[i].tagName.toLowerCase() === "input"){
-      if(i == 1 || i == 3){
-        continue;
-      } else{
         children[i].disabled = false
-      }
     }
     imagenInput.addEventListener('change', mostrarImagen)
   }

@@ -83,7 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
           if (data.length > 0) {
               var latlng = [parseFloat(data[0].lat), parseFloat(data[0].lon)];
               marker.setLatLng(latlng);
-              map.setView(latlng, 12); // Ajusta el mapa y el marcador a la ubicación
+            map.setView(latlng, 12); // Ajusta el mapa y el marcador a la ubicación
+            console.log(data)
           } else {
               alert("No hemos podido encontrar a tu mascota.");
           }

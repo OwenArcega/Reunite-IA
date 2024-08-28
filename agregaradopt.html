@@ -14,6 +14,11 @@
   </div>
   <h1>Añadir Mascota</h1>
   <form action="#">
+    <p>¿Tienes un póster? Úsalo para rellenar la información.</p>
+    <label for="imageInput">Seleccionar póster:</label>
+    <input type="file" id="imageInput" accept="image/*">
+    <hr>
+
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" placeholder="Nombre">
     
@@ -55,9 +60,7 @@
     <label for="descripcion">Descripción:</label>
     <textarea id="descripcion" placeholder="Descripción"></textarea>
   
-    <p>¿Tienes un póster? Úsalo para rellenar la información.</p>
-    <label for="imageInput">Seleccionar póster:</label>
-    <input type="file" id="imageInput" accept="image/*">
+    
   
     <button id="agregarMascotaBtn">Añadir</button>
   </form>
