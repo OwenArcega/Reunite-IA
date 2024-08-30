@@ -1,4 +1,15 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+  if (sessionStorage.getItem("logged") != "true") {
+    alert("Por favor incie sesión.");
+    window.location = "pruebalogin.html";
+  }
+  
+  const menuToggle = document.getElementById("menu-toggle");
+  const menuList = document.getElementById("menu-list");
+
+  menuToggle.addEventListener("click", () => {
+    menuList.classList.toggle("active");
+  });
   
 const estadosDeMexico = ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México","Estado de Mexico" , "Michoacán de Ocampo","Michoacan de Ocampo","Morelos", "Nayarit", "Nuevo León","Nuevo Leon","Oaxaca", "Puebla", "Querétaro","Queretaro", "Quintana Roo", "San Luis Potosí","San Luis Potosi", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán","Yucatan", "Zacatecas", "Ciudad de México","Ciudad de Mexico","CDMX"];
 

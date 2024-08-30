@@ -32,7 +32,11 @@ const btnReg = document.getElementById("btnRegister")
         })
           .then((res) => res.json())
           .then((data) => {
-            alert("Usuario registrado con éxito!");
+            if (data.status == "error") {
+              alert("Error: " + data.error);
+            } else {
+              alert("Usuario registrado con éxito!");
+            }
           });        
     })
     
@@ -56,9 +60,9 @@ const btnLog = document.getElementById("btnLogin")
        .then((res) => res.json())
        .then((data) => {
          if (data.status == "ok") {
-           console.log()
-            sessionStorage.setItem("userId", data.body[0].id);
-            window.location.href = "/home.html";
+           sessionStorage.setItem("userId", data.body[0].id);
+           sessionStorage.setItem("logged", "true");
+           window.location.href = "home.html";
          } else {
              alert("Usuario no encontrado");
          }

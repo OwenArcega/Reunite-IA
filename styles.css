@@ -1,256 +1,291 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+:root {
+  --color-principal: #f0f4fd; /* Azul pastel claro */
+  --color-acento: #f9a8ba; /* Rosa pastel */
+  --color-semantico: #5e548e; /* Morado oscuro */
+  --color-neutro: #9fa2b2; /* Gris claro */
+}
 
-  :root {
-    --color-principal: #F0F4FD; /* Azul pastel claro */
-    --color-acento: #F9A8BA; /* Rosa pastel */
-    --color-semantico: #5E548E; /* Morado oscuro */
-    --color-neutro: #9FA2B2; /* Gris claro */
-  }
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Pearl color */
+  color: #343a40; /* Dark blue */
+  line-height: 1.6;
+  box-sizing: border-box;
+  height: 100vh;
+}
 
-  /* Estas son las fuentes que he elegido para el menú */
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
+main {
+  padding: 0 20px;
+}
 
-  /* Este es el estilo general del menú */
+.menu {
+  background-color: #2c3e50; /* Azul oscuro */
+  color: #fff;
+  padding: 20px; /* Aumenta el espacio interno del menú */
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra para un toque profesional */
+  transition: background-color 0.3s ease;
+  position: relative; /* Para posicionar el menú desplegable */
+}
 
+.menu:hover {
+  background-color: #34495e; /* Cambia el color al pasar el mouse */
+}
 
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    color: #333; /* Texto negro para mayor legibilidad */
-    padding: 0 20px; /* Agrega padding a la izquierda y derecha de toda la página */
-  }
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  transition: transform 0.3s ease;
+  padding: 0; /* Elimina el padding predeterminado */
+  align-items: center;
+}
 
-  
-  .menu {
-    background-color: #2c3e50; /* Azul oscuro */
-    color: #fff;
-    padding: 40px; /* Aumenta el espacio interno del menú */
-    text-align: center;
-    border-radius: 5px;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra para un toque profesional */
-    transition: background-color 0.3s ease;
-  }
-  
-  .menu:hover {
-      background-color: #34495e; /* Change color on hover */
-    }
+.menu ul li {
+  margin: 0 40px;
+  transition: transform 0.3s ease;
+}
 
-    .menu ul {
-      list-style: none;
-      display: flex;
-      justify-content: space-evenly;
-      transition: transform 0.3s ease;
-    }
+.menu ul li:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  text-decoration-color: white;
+}
 
-    .menu ul li {
-      margin: 0 40px; /* Increase space between menu items */
-      transition: transform 0.3s ease;
-    }
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+  transition: color 0.3s ease;
+}
 
-    .menu ul li:hover {
-      transform: scale(1.2);
-      text-decoration: underline;
-      text-decoration-color: white;
+.menu-selected {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
 
-    }
+/* Estilos para el botón del menú */
+.menu-toggle {
+  display: none; /* Oculto por defecto */
+  font-size: 24px; /* Tamaño del icono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el icono */
+}
 
-    .menu a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: 500;
-      font-size: 18px; /* Increase font size */
-      transition: color 0.3s ease;
-    }
-
-    .menu-selected {
-      text-decoration: underline;
-      text-decoration-color: white;
-    }
-
-  .busquedas {
-    margin: 20px;
-    padding: 20px;
-    height: 40px;
-  }
-  
-  .custom-button {
-    padding: 15px 30px; /* Aumenta el tamaño del botón */
-    background-color: #fff; /* Fondo blanco para los botones */
-    color: #333; /* Texto negro para mayor contraste */
-    border: 1px solid #ddd; /* Borde sutil para separar del fondo */
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    border-radius: 5px;
-    display: inline-block; /* Asegura que el botón no ocupe todo el ancho */
-    text-decoration: none; /* Elimina el subrayado del enlace dentro del botón */
-    margin: 10px; /* Añade margen para separar los botones */
-  }
-  
-  .custom-button a {
-    text-decoration: none; /* Elimina el subrayado del enlace dentro del botón */
-    color: inherit; /* Hereda el color del texto del botón */
-  }
-  
-  
-  .custom-button:hover {
-    background-color: #34495e; /* Cambia el color al pasar el ratón sobre el botón */
-    color: #fff; /* Texto blanco para mayor contraste */
-    transform: scale(1.05); /* Hace que el botón se agrande ligeramente al pasar el ratón sobre él */
-  }
-
-
-  .mascotas {
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 0;
-  }
-
-  .titulo_mascotas {
-    color: #333;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 40px;
-  }
-
-  #listaMascotas {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-
-
-
-  /*-------------------------------------------------------------------- */
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /*overall layout*/
-  
-  
-  h1 {
-    font: 700 48px/1.2 "Poppins", sans-serif;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font: 700 32px/1.2 "Poppins", sans-serif;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    font: 700 24px/1.2 "Poppins", sans-serif;
-    margin-bottom: 10px;
-  }
-  
-  
-  
-  /*buttons & links*/
-  a.button {
-    outline: none;
-    width: 100%;
-    text-align: center;
-    display: inline-block;
-    border: none;
-    font: 500 16px/1 "Poppins", sans-serif;
-    padding: 20px;
-    cursor: pointer;
-    border-radius: var(--borderRadius);
-    background: var(--primaryColor);
-    color: var(--backgroundColor);
-    position: relative;
-    top: 0;
-    transition: 0.2s ease;
-    color: white;
-    background-color: #285a8e;
-  }
-  a.button:hover, a.button.hover {
-    top: -3px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  }
-  .profile {
-    position: relative;
-    background: var(--backgroundColor);
-    color: var(--foregroundColor);
-    box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
-    border-radius: 10px;
-    transition: 0.2s ease;
-  }
-  .profile__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .profile__stats__title {
-    color: var(--grayColor);
-    text-transform: uppercase;
-    font-size: 16px;
-  }
-  .profile a:hover {
-    top: 0;
-    box-shadow: none;
-    /* background: var(--primaryShade4);  */
-  }
-  .profile a:active, .profile a:focus {
-    top: 0;
-    box-shadow: none;
-    background: var(--primaryShade5);
-  }
-  
-  .profile-imgonly {
-    border-radius: 10px;
-    overflow: hidden;
-    width: 300px;
-    display: grid;
-    grid: 390px 0px/100%;
-  }
-  .profile-imgonly:hover {
-    grid: 334px 56px/100%;
-  }
-  .profile-imgonly .profile__image, .profile-imgonly .profile__info {
-    grid-row: 1/2;
-    grid-column: 1/2;
-  }
-  .profile-imgonly .profile__image {
-    position: relative;
-  }
-  .profile-imgonly .profile__image:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .menu ul {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    align-items: center; /* Centra los elementos */
+    display: none; /* Oculta el menú por defecto */
+    position: absolute; /* Posiciona el menú desplegable */
+    top: 60px; /* Ajusta la posición del menú */
     left: 0;
-    width: 100%;
-    height: 30%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+    right: 0;
+    background-color: #2c3e50; /* Color de fondo del menú desplegable */
+    z-index: 10; /* Asegura que el menú esté por encima de otros elementos */
   }
-  .profile-imgonly .profile__stats {
-    display: none;
-  }
-  .profile-imgonly .profile__info {
-    z-index: 5;
-    grid-row: 1/2;
-    align-self: end;
-    margin: 10px 20px;
-    color: #fff;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  }
-  .profile-imgonly .profile__info p {
-    display: none;
-  }
-  .profile-imgonly .profile__cta a {
-    border-radius: 0;
-  }
-  
 
+  .menu ul.active {
+    display: flex; /* Muestra el menú cuando está activo */
+  }
 
+  .menu ul li {
+    margin: 10px 0; /* Reduce el margen entre los elementos */
+  }
+
+  .menu a {
+    font-size: 16px; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+  }
+
+  .menu-toggle {
+    display: block; /* Muestra el icono en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    padding: 15px; /* Reduce el padding en pantallas muy pequeñas */
+  }
+
+  .menu a {
+    font-size: 14px; /* Reduce aún más el tamaño de la fuente */
+  }
+}
+
+ul {
+  color: #495057; /* Dark blue */
+  list-style-type: disc;
+  margin: 16px 0;
+}
+
+.busquedas {
+  margin: 10px;
+  padding: 15px 30px;
+}
+
+.custom-button {
+  padding: 15px 30px; /* Aumenta el tamaño del botón */
+  background-color: #fff; /* Fondo blanco para los botones */
+  color: #333; /* Texto negro para mayor contraste */
+  border: 1px solid #ddd; /* Borde sutil para separar del fondo */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  border-radius: 5px;
+  display: inline-block; /* Asegura que el botón no ocupe todo el ancho */
+  text-decoration: none; /* Elimina el subrayado del enlace dentro del botón */
+  margin: 10px; /* Añade margen para separar los botones */
+}
+
+.custom-button a {
+  text-decoration: none; /* Elimina el subrayado del enlace dentro del botón */
+  color: inherit; /* Hereda el color del texto del botón */
+}
+
+.custom-button:hover {
+  background-color: #34495e; /* Cambia el color al pasar el ratón sobre el botón */
+  color: #fff; /* Texto blanco para mayor contraste */
+  transform: scale(
+    1.05
+  ); /* Hace que el botón se agrande ligeramente al pasar el ratón sobre él */
+}
+
+.mascotas {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+
+.titulo_mascotas {
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#listaMascotas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+h1 {
+  font: 700 48px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font: 700 32px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font: 700 24px/1.2 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+
+/*buttons & links*/
+a.button {
+  outline: none;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  font: 500 16px/1 "Poppins", sans-serif;
+  padding: 20px 0;
+  cursor: pointer;
+  border-radius: var(--borderRadius);
+  background: var(--primaryColor);
+  color: var(--backgroundColor);
+  position: relative;
+  top: 0;
+  transition: 0.2s ease;
+  color: white;
+  background-color: #285a8e;
+}
+a.button:hover,
+a.button.hover {
+  top: -3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.profile {
+  position: relative;
+  background: var(--backgroundColor);
+  color: var(--foregroundColor);
+  box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+.profile__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile__stats__title {
+  color: var(--grayColor);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.profile a:hover {
+  top: 0;
+  box-shadow: none;
+  /* background: var(--primaryShade4);  */
+}
+.profile a:active,
+.profile a:focus {
+  top: 0;
+  box-shadow: none;
+  background: var(--primaryShade5);
+}
+
+.profile-imgonly {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  display: grid;
+  grid: 390px 0px/100%;
+}
+.profile-imgonly:hover {
+  grid: 334px 56px/100%;
+}
+.profile-imgonly .profile__image,
+.profile-imgonly .profile__info {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.profile-imgonly .profile__image {
+  position: relative;
+}
+.profile-imgonly .profile__image:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+}
+.profile-imgonly .profile__stats {
+  display: none;
+}
+.profile-imgonly .profile__info {
+  z-index: 5;
+  grid-row: 1/2;
+  align-self: end;
+  margin: 10px 20px;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.profile-imgonly .profile__info p {
+  display: none;
+}
+.profile-imgonly .profile__cta a {
+  border-radius: 0;
+}
 
 .form {
   background-color: #ffffff;
@@ -271,7 +306,6 @@ label {
   margin-top: 10px;
   color: #555;
 }
-
 
 /* Estilo específico para el botón de agregar */
 button {
@@ -330,6 +364,7 @@ button:hover {
   grid-template-columns: 6fr;
   grid-template-rows: 1fr;
   padding-right: 20px;
+  height: 100px;
 }
 
 .left-options {
@@ -339,31 +374,6 @@ button:hover {
 .right-options {
   grid-column: 4 / 6;
 }
-
-.find-pet-btn {
-  height: 50px;
-  width: 250px;
-  font-weight: bold;
-   background: linear-gradient(270deg, red, orange, rgb(131, 131, 3), green, blue, indigo, violet, rgb(185, 11, 118), red);
-   background-size: 400% 400%;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-   border-radius: 5px;
-   animation: rainbow 3s linear infinite;
-  }
-
- @keyframes rainbow {
-            0% { background-position: 0 100; }
-  50% { background-position: 0 -500px; }
-  100% { background-position: 0 -900px; }
-        }
 
 .background {
   text-align: center;
@@ -459,4 +469,75 @@ button#submit-btn {
 button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed; /* Cambia a fixed para mantenerlo en la pantalla */
+  bottom: 30px; /* Espacio desde la parte inferior */
+  right: 30px; /* Espacio desde la parte derecha */
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgb(255, 65, 65);
+  padding-left: 15px;
+}
+
+/* plus sign */
+.sign {
+  width: 13px;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 20px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 175px;
+  border-radius: 40px;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: 0.3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: 0.3s;
+  padding-right: 10px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px, 2px);
 }

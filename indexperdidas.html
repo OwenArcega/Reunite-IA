@@ -6,28 +6,48 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/Myimages/reuniteIcon.ico">
 </head>
 <body>
   <nav class="menu">
-    <ul>
-      <li><a href="./home.html">Inicio</a></li>
-      <li class="menu-selected"><a href="./index.html">Mascotas Perdidas</a></li>
-      <li><a href="./indexadopt.html">Mascotas en Adopción</a></li>
-      <li><a href="informate.html">Infórmate</a></li>
+    <div class="menu-toggle" id="menu-toggle">
+      &#9776; <!-- Icono de hamburguesa -->
+    </div>
+    <ul id="menu-list">
+      <li><a href="home.html">Inicio</a></li>
+      <li class="menu-selected"><a href="indexperdidas.html">Mascotas Perdidas</a></li>
+      <li><a href="indexadopt.html">Mascotas en Adopción</a></li>
+      <li><a href="informate.html">Infórmate</a></li> 
     </ul>
   </nav>
-  <h2 class="titulo_mascotas">Mascotas registradas</h2> 
-  <input type="text" id="busqueda" class="busquedas" placeholder="">
-  <button id="buscarBtn" class="custom-button">Buscar</button>
-    <button id="misPublicacionesBtn" class="custom-button">Mis mascotas</button>
-    <div class="mascotas" id="listaMascotas">
+  <main>
+    <h2 class="titulo_mascotas">Mascotas registradas</h2> 
+    <div class="options-container">
+      <div class="left-options">
+        <input type="text" id="busqueda" class="busquedas" placeholder="">
+        <button id="buscarBtn" class="custom-button">Buscar</button>
+        <button id="misPublicacionesBtn" class="custom-button">Mis mascotas</button>
+      </div>
     </div>
-    <section class="mascotas" id="listaMascotas">
-    </section>
-    </div>
-
-
+      <div class="mascotas" id="listaMascotas">
+      </div>
+      <section class="mascotas" id="listaMascotas">
+      </section>
+      </div>
+  </main>
+    <button id="loggoutBtn" class="Btn">
+      <div class="sign">
+        <svg viewBox="0 0 512 512">
+          <path
+            d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"
+          ></path>
+        </svg>
+      </div>
+      <div class="text">Logout</div>
+    </button>
   <script src="indexperdidas.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="loggout.js"></script>
+
 </body>
 </html>

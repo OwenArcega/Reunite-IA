@@ -1,61 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="home.css">
-  <title>Bienvenido a reUnite</title>
-</head>
-<body>
-  <nav class="menu">
-    <ul>
-      <li class="menu-selected"><a href="home.html">Inicio</a></li>
-      <li><a href="indexperdidas.html">Mascotas Perdidas</a></li>
-      <li><a href="indexadopt.html">Mascotas en Adopción</a></li>
-      <li><a href="informate.html">Infórmate</a></li>
-    </ul>
-  </nav>
-  <header>
-    <h1>¡Bienvenido a reUnite!</h1>
-    <p>Encuentra a tu compañero peludo perdido o dale un hogar a una mascota que necesita amor.</p>
-  </header>
-  <main>
-    <section>
-      <h2>¿Cómo funciona?</h2>
-      <p>
-        Reunite es su plataforma central para reunir a las mascotas perdidas con sus dueños y facilitar las adopciones para aquellos que buscan un nuevo miembro peludo en su familia. Estas son algunas características clave:
-      </p>
-      <ul>
-        <li>Publica y busca mascotas perdidas para una reunión rápida.</li>
-        <li>Explore perfiles detallados de mascotas disponibles para adopción.</li>
-        <li>Conéctese con dueños de mascotas perdidas a través de nuestro sistema de mensajería seguro.</li>
-        <li>Encuentra tu nueva mascota y bríndale un hogar lleno de amor y cuidado.</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <title>Bienvenido a reUnite</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/Myimages/reuniteIcon.ico"
+    />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu-toggle" id="menu-toggle">
+        &#9776;
+        <!-- Icono de hamburguesa -->
+      </div>
+      <ul id="menu-list">
+        <li class="menu-selected"><a href="home.html">Inicio</a></li>
+        <li><a href="indexperdidas.html">Mascotas Perdidas</a></li>
+        <li><a href="indexadopt.html">Mascotas en Adopción</a></li>
+        <li><a href="informate.html">Infórmate</a></li>
       </ul>
-    </section>
-  
-    <section>
-      <h2>Adopta con Confidencia</h2>
+    </nav>
+    <header>
+      <h1>¡Bienvenido a reUnite!</h1>
       <p>
-        En Reunite, cada mascota disponible para adopción tiene un perfil detallado, que incluye información sobre su historia, comportamiento y necesidades. Puede tomar decisiones informadas antes de darle la bienvenida a su nuevo compañero.
+        Encuentra a tu compañero peludo perdido o dale un hogar a una mascota
+        que necesita amor.
       </p>
-    </section>
-  
-    <section>
-      <h2>Encuentra tu mascota perdida</h2>
-      <p>
-        Si ha perdido a su mascota, utilice nuestra herramienta de búsqueda avanzada para encontrar coincidencias cercanas. Conéctate con aquellos que han encontrado a tu amigo peludo y reúnete rápidamente.
-      </p>
-    </section>
-  
-    <section>
-      <h2>Comunidad Comprometida</h2>
-      <p>
-        Únase a nuestra apasionada comunidad de amantes de los animales. Comparte experiencias, obtén consejos y participa en eventos que promuevan el bienestar de las mascotas. Juntos, creamos un ambiente positivo para todos.
-      </p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Reunite - Encuentra y adopta</p>
-  </footer>
-</body>
+    </header>
+    <main>
+      <section>
+        <h2>¿Cómo funciona?</h2>
+        <p>
+          Reunite es su plataforma central para reunir a las mascotas perdidas
+          con sus dueños y facilitar las adopciones para aquellos que buscan un
+          nuevo miembro peludo en su familia. Estas son algunas características
+          clave:
+        </p>
+        <ul>
+          <li>Publica y busca mascotas perdidas para una reunión rápida.</li>
+          <li>
+            Explore perfiles detallados de mascotas disponibles para adopción.
+          </li>
+          <li>
+            Conéctese con dueños de mascotas perdidas a través de nuestro
+            sistema de mensajería seguro.
+          </li>
+          <li>
+            Encuentra tu nueva mascota y bríndale un hogar lleno de amor y
+            cuidado.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Adopta con Confidencia</h2>
+        <p>
+          En Reunite, cada mascota disponible para adopción tiene un perfil
+          detallado, que incluye información sobre su historia, comportamiento y
+          necesidades. Puede tomar decisiones informadas antes de darle la
+          bienvenida a su nuevo compañero.
+        </p>
+      </section>
+
+      <section>
+        <h2>Encuentra tu mascota perdida</h2>
+        <p>
+          Si ha perdido a su mascota, utilice nuestra herramienta de búsqueda
+          avanzada para encontrar coincidencias cercanas. Conéctate con aquellos
+          que han encontrado a tu amigo peludo y reúnete rápidamente.
+        </p>
+      </section>
+
+      <section>
+        <h2>Comunidad Comprometida</h2>
+        <p>
+          Únase a nuestra apasionada comunidad de amantes de los animales.
+          Comparte experiencias, obtén consejos y participa en eventos que
+          promuevan el bienestar de las mascotas. Juntos, creamos un ambiente
+          positivo para todos.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Reunite - Encuentra y adopta</p>
+    </footer>
+    <button id="loggoutBtn" class="Btn">
+      <div class="sign">
+        <svg viewBox="0 0 512 512">
+          <path
+            d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z"
+          ></path>
+        </svg>
+      </div>
+      <div class="text">Logout</div>
+    </button>
+    <script src="home.js"></script>
+    <script src="loggout.js"></script>
+  </body>
 </html>

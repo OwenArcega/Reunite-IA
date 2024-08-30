@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
+  if (sessionStorage.getItem("logged") != "true") {
+    alert("Por favor incie sesión.");
+    window.location = "pruebalogin.html";
+  }
+
+  const agregarBtn = document.getElementById('agregarBtn');
+  agregarBtn.addEventListener('click', () => {
+    window.location = "agregaradopt.html";
+  })
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const menuList = document.getElementById("menu-list");
+
+  menuToggle.addEventListener("click", () => {
+    menuList.classList.toggle("active");
+  });
+
   let myid = localStorage.getItem('myide');
   let mascotas = [];
 
