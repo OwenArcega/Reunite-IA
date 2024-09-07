@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   if (sessionStorage.getItem("logged") != "true") {
     alert("Por favor incie sesión.");
     window.location = "pruebalogin.html";
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   let mascotas = [];
-  let userId = sessionStorage.getItem('userId');
+  let userId = sessionStorage.getItem("userId");
 
   // Función para cargar las mascotas desde el JSON y mostrarlas
   function cargarMascotas() {
@@ -31,21 +31,20 @@ document.addEventListener('DOMContentLoaded', () => {
           mascotas = data.body;
           mostrarMascotas();
         } else {
-          alert("Error cargando registros.")
+          alert("Error cargando registros.");
           console.log(data.error);
         }
       });
-
   }
 
   // Función para mostrar la lista de mascotas
   function mostrarMascotas() {
-    const listaMascotas = document.getElementById('listaMascotas');
-    listaMascotas.innerHTML = ''; // Limpia el contenido anterior
+    const listaMascotas = document.getElementById("listaMascotas");
+    listaMascotas.innerHTML = ""; // Limpia el contenido anterior
 
     mascotas.forEach((mascota) => {
-      const divMascota = document.createElement('div');
-      divMascota.classList.add('mascota-container'); // Agrega la clase al div
+      const divMascota = document.createElement("div");
+      divMascota.classList.add("mascota-container"); // Agrega la clase al div
 
       divMascota.innerHTML = `
           <div class="profile profile-imgonly">
@@ -60,17 +59,19 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
 
       listaMascotas.appendChild(divMascota); // Agrega el div de la mascota directamente al contenedor
-      document.getElementById(`mascota-${mascota.id}`).addEventListener('click', () => verDetalles(mascota.id));
+      document
+        .getElementById(`mascota-${mascota.id}`)
+        .addEventListener("click", () => verDetalles(mascota.id));
     });
   }
 
   function verDetalles(id) {
     window.location.href = `detallesmispubli.html?id=${id}`;
   }
-  
-  const agregarBtn = document.getElementById('agregarBtn');
-  agregarBtn.addEventListener('click', () => {
+
+  const agregarBtn = document.getElementById("agregarBtn");
+  agregarBtn.addEventListener("click", () => {
     window.location.href = "./agregar.html";
-  })
+  });
   cargarMascotas();
 });

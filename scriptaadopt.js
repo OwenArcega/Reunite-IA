@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let mascotasadoptadas = [];
 
   const btnMisMascotas = document.getElementById("misMascotas");
-  btnMisMascotas.addEventListener('click', () => {
-    window.location = "./mispublicadopt.html"
-  })
+  btnMisMascotas.addEventListener("click", () => {
+    window.location = "./mispublicadopt.html";
+  });
 
   // Función para cargar las mascotas desde el JSON y mostrarlas
   function cargarMascotas() {
@@ -31,13 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 
-
   // Función para mostrar la lista de mascotas
   function mostrarMascotas() {
-    const listaMascotas = document.getElementById('listaMascotas');
-    listaMascotas.innerHTML = '';
+    const listaMascotas = document.getElementById("listaMascotas");
+    listaMascotas.innerHTML = "";
 
-    const filtroBusqueda = document.getElementById('busqueda').value.toLowerCase();
+    const filtroBusqueda = document
+      .getElementById("busqueda")
+      .value.toLowerCase();
 
     mascotasadoptadas
       .filter((mascotasadoptadas) => {
@@ -45,8 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return mascotasadoptadas.nombre.toLowerCase().includes(filtroBusqueda);
       })
       .forEach((mascotasadoptadas) => {
-        const divMascota = document.createElement('div');
-        divMascota.classList.add('mascota-container'); // Agrega la clase al div
+        const divMascota = document.createElement("div");
+        divMascota.classList.add("mascota-container"); // Agrega la clase al div
         divMascota.innerHTML = `
         <div class="profile profile-imgonly">
           <div class="profile__image">
@@ -59,30 +60,33 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `;
         listaMascotas.appendChild(divMascota); // Agrega el div de la mascota directamente al contenedor
-        document.getElementById(`mascota-${mascotasadoptadas.id}`).addEventListener("click", () => verDetalles(mascotasadoptadas.id));
-
+        document
+          .getElementById(`mascota-${mascotasadoptadas.id}`)
+          .addEventListener("click", () => verDetalles(mascotasadoptadas.id));
       });
   }
 
-  function buscarMascotas() {
-    mostrarMascotas(); // Esto activará el filtro al hacer clic en el botón de búsqueda
-  }
+  const btnBuscar = document.getElementById("buscarBtn");
+  btnBuscar.addEventListener("click", () => {
+    mostrarMascotas();
+  });
+
   function mostrarImagen() {
-    const imagenInput = document.getElementById('imagen');
-    const imagenMostrada = document.getElementById('imagenMostrada');
+    const imagenInput = document.getElementById("imagen");
+    const imagenMostrada = document.getElementById("imagenMostrada");
     const file = imagenInput.files[0];
-  
+
     if (file) {
       const reader = new FileReader();
-  
+
       reader.onload = (e) => {
         imagenMostrada.src = e.target.result;
       };
-  
+
       reader.readAsDataURL(file);
     } else {
       // Si no se selecciona ningún archivo, se muestra una imagen vacía o un mensaje
-      imagenMostrada.src = '';
+      imagenMostrada.src = "";
     }
   }
 
@@ -90,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = `detallesadopt.html?id=${id}`;
   }
   cargarMascotas();
-  
+
   document.getElementById("open-popup").addEventListener("click", function () {
     document.getElementById("popup").style.display = "flex";
   });
@@ -148,7 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const radios = step.querySelectorAll('input[type="radio"]');
     const error = step.querySelector(".error");
 
-  
     if (select) {
       if (select.value === "") {
         error.style.display = "block";
@@ -235,12 +238,17 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="profile__info">
             <h3>${mascota[0].nombre}</h3>
           </div>
-          <div class="profile__cta"><a class="button" onclick="verDetalles(${mascota[0].id})">Detalles</a></div>
+          <div class="profile__cta"><a id=mascota-${mascotasadoptadas.id} class="button">Detalles</a></div>
         </div>
       `;
             listaMascotas.appendChild(divMascota); // Agrega el div de la mascota directamente al contenedor
+            document
+              .getElementById(`mascota-${mascotasadoptadas.id}`)
+              .addEventListener("click", () =>
+                verDetalles(mascotasadoptadas.id)
+              );
           }
-        })
+        });
     }
 
     return esValido;
