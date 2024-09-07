@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const btnLog = document.getElementById("btnLogin");
   btnLog.addEventListener("click", (e) => {
     e.preventDefault();
-    let username = dxcument.getElementById("username").value;
+    let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
     fetch("https://nodetest-p2ot.onrender.com/login", {
