@@ -1,41 +1,73 @@
 document.addEventListener("DOMContentLoaded", () => {
-
   if (sessionStorage.getItem("logged") != "true") {
     alert("Por favor incie sesión.");
     window.location = "pruebalogin.html";
   }
 
-    const menuToggle = document.getElementById("menu-toggle");
-    const menuList = document.getElementById("menu-list");
+  const menuToggle = document.getElementById("menu-toggle");
+  const menuList = document.getElementById("menu-list");
 
-    menuToggle.addEventListener("click", () => {
-      menuList.classList.toggle("active");
-    });
-  
+  menuToggle.addEventListener("click", () => {
+    menuList.classList.toggle("active");
+  });
+
   // Variable global para almacenar los datos de mascotas
-  let myid = localStorage.getItem('userId');
+  let myid = localStorage.getItem("userId");
 
-  const estadosDeMexico = ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México", "Michoacán de Ocampo", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas", "Ciudad de México"];
+  const estadosDeMexico = [
+    "Aguascalientes",
+    "Baja California",
+    "Baja California Sur",
+    "Campeche",
+    "Chiapas",
+    "Chihuahua",
+    "Coahuila",
+    "Colima",
+    "Durango",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Estado de México",
+    "Michoacán de Ocampo",
+    "Morelos",
+    "Nayarit",
+    "Nuevo León",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "Quintana Roo",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Tabasco",
+    "Tamaulipas",
+    "Tlaxcala",
+    "Veracruz",
+    "Yucatán",
+    "Zacatecas",
+    "Ciudad de México",
+  ];
 
   let existeImagen = false;
 
   // Función para agregar una mascota
   const agregarMascotaBtn = document.getElementById("agregarMascotaBtn");
-  agregarMascotaBtn.addEventListener('click', (e) => {
+  agregarMascotaBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    const nombre = document.getElementById('nombre').value;
-    const especie = document.getElementById('especie').value;
-    const raza = document.getElementById('raza').value;
-    const color = document.getElementById('color').value;
-    const edad = parseInt(document.getElementById('edad').value);
-    const sexo = document.getElementById('sexo').value;
-    let ubicacion = document.getElementById('ubicacion').value.toLowerCase();
-    const contactoNombre = document.getElementById('contactoNombre').value;
-    const telefono = document.getElementById('telefono').value;
-    const email = document.getElementById('email').value;
+    const nombre = document.getElementById("nombre").value;
+    const especie = document.getElementById("especie").value;
+    const raza = document.getElementById("raza").value;
+    const color = document.getElementById("color").value;
+    const edad = parseInt(document.getElementById("edad").value);
+    const sexo = document.getElementById("sexo").value;
+    let ubicacion = document.getElementById("ubicacion").value.toLowerCase();
+    const contactoNombre = document.getElementById("contactoNombre").value;
+    const telefono = document.getElementById("telefono").value;
+    const email = document.getElementById("email").value;
     const descripcion = document.getElementById("descripcion").value;
-    let imagenMostrada = document.getElementById('imagenMostrada').src;
-  
+    let imagenMostrada = document.getElementById("imagenMostrada").src;
+
     let encontrado = false;
     ubicacion = ubicacion.toLowerCase();
     encontrado = estadosDeMexico.find((estado) =>
@@ -51,7 +83,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const mimePrefixRegex = /^data:image\/[a-zA-Z]+;base64,/;
 
     imagenMostrada = imagenMostrada.replace(mimePrefixRegex, "");
-    if (!!nombre && !!especie && !!raza && !!color && !isNaN(edad) && !!sexo && !!ubicacion && !!contactoNombre && !!telefono && !!email && !!descripcion) {
+    if (
+      !!nombre &&
+      !!especie &&
+      !!raza &&
+      !!color &&
+      !isNaN(edad) &&
+      !!sexo &&
+      !!ubicacion &&
+      !!contactoNombre &&
+      !!telefono &&
+      !!email &&
+      !!descripcion
+    ) {
       fetch("https://nodetest-p2ot.onrender.com/registrarPerdida", {
         method: "POST",
         body: JSON.stringify({
@@ -67,37 +111,40 @@ document.addEventListener("DOMContentLoaded", () => {
           correoContacto: email,
           imagen: imagenMostrada,
           descripcion: descripcion,
-          id_usuario: myid
+          id_usuario: myid,
         }),
         headers: {
           "Content-Type": "application/json",
         },
-        mode: "cors"
+        mode: "cors",
       })
         .then((res) => res.json())
         .then((data) => {
           if (data.status == "ok") {
             alert("Mascota guardada correctamente");
-            
           } else {
-            console.log(data.error)
-            alert("Error al guardar la mascota")
+            console.log(data.error);
+            alert("Error al guardar la mascota");
           }
-          limpiarFormulario()
+          limpiarFormulario();
         });
     } else {
       alert("Por favor llene todos los campos.");
     }
-  })
-
+  });
 
   function limpiarFormulario() {
-    const inputs = document.getElementsByTagName('input');
+    const inputs = document.getElementsByTagName("input");
     for (let i = 0; i < inputs.length; i++) {
       inputs[i].value = "";
     }
-    document.getElementById('descripcion').value = "";
+    document.getElementById("descripcion").value = "";
   }
+
+  const imagenInput = document.getElementById("imagen");
+  imagenInput.addEventListener("change", () => {
+    mostrarImagen();
+  });
 
   function mostrarImagen() {
     var imagen = document.getElementById("imagen").files[0];
@@ -111,17 +158,17 @@ document.addEventListener("DOMContentLoaded", () => {
     existeImagen = true;
   }
 
-  const imageInput = document.getElementById('imageInput');
-  const nombre = document.getElementById('nombre');
-  const especie = document.getElementById('especie');
-  const raza = document.getElementById('raza');
-  const color = document.getElementById('color');
-  const edad = parseInt(document.getElementById('edad'));
-  const sexo = document.getElementById('sexo');
-  const ubicacion = document.getElementById('ubicacion');
-  const contactoNombre = document.getElementById('contactoNombre');
-  const telefono = document.getElementById('telefono');
-  const email = document.getElementById('email');
+  const imageInput = document.getElementById("imageInput");
+  const nombre = document.getElementById("nombre");
+  const especie = document.getElementById("especie");
+  const raza = document.getElementById("raza");
+  const color = document.getElementById("color");
+  const edad = parseInt(document.getElementById("edad"));
+  const sexo = document.getElementById("sexo");
+  const ubicacion = document.getElementById("ubicacion");
+  const contactoNombre = document.getElementById("contactoNombre");
+  const telefono = document.getElementById("telefono");
+  const email = document.getElementById("email");
 
   imageInput.addEventListener("change", async () => {
     const file = imageInput.files[0];
@@ -152,24 +199,22 @@ document.addEventListener("DOMContentLoaded", () => {
   function readFileAsBase64(file) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
-      reader.onload = () => resolve(reader.result.split(',')[1]);
+      reader.onload = () => resolve(reader.result.split(",")[1]);
       reader.onerror = reject;
       reader.readAsDataURL(file);
     });
   }
 
   function updateInputFields(dataObj) {
-    nombre.value = dataObj['nombre'] || '';
-    especie.value = dataObj['especie'] || '';
-    raza.value = dataObj['raza'] || '';
-    sexo.value = dataObj['sexo'] || '';
-    color.value = dataObj['color'] || '';
-    edad.value = dataObj['edad'] || '';
-    ubicacion.value = dataObj['localización'] || dataObj['dirección'] || '';
-    contactoNombre.value = dataObj['nombre_del_contacto_del_dueño'] || '';
-    telefono.value = dataObj['teléfono'] || '';
-    email.value = dataObj['correo_electrónico'] || '';
+    nombre.value = dataObj["nombre"] || "";
+    especie.value = dataObj["especie"] || "";
+    raza.value = dataObj["raza"] || "";
+    sexo.value = dataObj["sexo"] || "";
+    color.value = dataObj["color"] || "";
+    edad.value = dataObj["edad"] || "";
+    ubicacion.value = dataObj["localización"] || dataObj["dirección"] || "";
+    contactoNombre.value = dataObj["nombre_del_contacto_del_dueño"] || "";
+    telefono.value = dataObj["teléfono"] || "";
+    email.value = dataObj["correo_electrónico"] || "";
   }
-  
-
 });
