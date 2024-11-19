@@ -1,21 +1,54 @@
 document.addEventListener("DOMContentLoaded", () => {
-    if (sessionStorage.getItem("logged") != "true") {
-      alert("Por favor incie sesión.");
-      window.location = "pruebalogin.html";
-    }
+  if (sessionStorage.getItem("logged") != "true") {
+    alert("Por favor incie sesión.");
+    window.location = "pruebalogin.html";
+  }
 
-    const menuToggle = document.getElementById("menu-toggle");
-    const menuList = document.getElementById("menu-list");
+  const menuToggle = document.getElementById("menu-toggle");
+  const menuList = document.getElementById("menu-list");
 
-    menuToggle.addEventListener("click", () => {
-      menuList.classList.toggle("active");
-    });
-  
+  menuToggle.addEventListener("click", () => {
+    menuList.classList.toggle("active");
+  });
+
   let existeImagen = false;
 
-  let myid = localStorage.getItem('userId');
+  let myid = sessionStorage.getItem("userId");
 
-  const estadosDeMexico = ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México", "Michoacán de Ocampo", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucatán", "Zacatecas", "Ciudad de México"];
+  const estadosDeMexico = [
+    "Aguascalientes",
+    "Baja California",
+    "Baja California Sur",
+    "Campeche",
+    "Chiapas",
+    "Chihuahua",
+    "Coahuila",
+    "Colima",
+    "Durango",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Estado de México",
+    "Michoacán de Ocampo",
+    "Morelos",
+    "Nayarit",
+    "Nuevo León",
+    "Oaxaca",
+    "Puebla",
+    "Querétaro",
+    "Quintana Roo",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Tabasco",
+    "Tamaulipas",
+    "Tlaxcala",
+    "Veracruz",
+    "Yucatán",
+    "Zacatecas",
+    "Ciudad de México",
+  ];
 
   // Función para agregar una mascota
   const agregarMascotaBtn = document.getElementById("agregarMascotaBtn");
@@ -36,10 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let encontrado = false;
     ubicacion = ubicacion.toLowerCase();
-    encontrado = estadosDeMexico.find((estado) =>
-      ubicacion.includes(estado.toLowerCase())
-    );
-  
+    encontrado = estadosDeMexico.find((estado) => ubicacion.includes(estado.toLowerCase()));
+
     if (!encontrado) {
       alert("Agrege un estado a la ubicación.");
       return;
@@ -121,35 +152,31 @@ document.addEventListener("DOMContentLoaded", () => {
     existeImagen = true;
   }
 
+  const imageInput = document.getElementById("imageInput");
+  const nombre = document.getElementById("nombre");
+  const especie = document.getElementById("especie");
+  const raza = document.getElementById("raza");
+  const color = document.getElementById("color");
+  const edad = parseInt(document.getElementById("edad"));
+  const sexo = document.getElementById("sexo");
+  const ubicacion = document.getElementById("ubicacion");
+  const contactoNombre = document.getElementById("contactoNombre");
+  const telefono = document.getElementById("telefono");
+  const email = document.getElementById("email");
 
-  const imageInput = document.getElementById('imageInput');
-  const nombre = document.getElementById('nombre');
-  const especie = document.getElementById('especie');
-  const raza = document.getElementById('raza');
-  const color = document.getElementById('color');
-  const edad = parseInt(document.getElementById('edad'));
-  const sexo = document.getElementById('sexo');
-  const ubicacion = document.getElementById('ubicacion');
-  const contactoNombre = document.getElementById('contactoNombre');
-  const telefono = document.getElementById('telefono');
-  const email = document.getElementById('email');
-    
   imageInput.addEventListener("change", async () => {
     const file = imageInput.files[0];
     if (!file) return;
     const imagen = await readFileAsBase64(file);
-    const response = await fetch(
-      "https://nodetest-p2ot.onrender.com/obtenerInfo",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          imagen: imagen
-        })
-      }
-    )
+    const response = await fetch("https://nodetest-p2ot.onrender.com/obtenerInfo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        imagen: imagen,
+      }),
+    })
       .then((res) => res.json())
       .then((data) => {
         try {
@@ -157,28 +184,28 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (parseError) {
           console.error("Error parsing JSON:", parseError, data);
         }
-      })
+      });
   });
-    
+
   function readFileAsBase64(file) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
-      reader.onload = () => resolve(reader.result.split(',')[1]);
+      reader.onload = () => resolve(reader.result.split(",")[1]);
       reader.onerror = reject;
       reader.readAsDataURL(file);
     });
   }
-    
+
   function updateInputFields(dataObj) {
-    nombre.value = dataObj['nombre'] || '';
-    especie.value = dataObj['especie'] || '';
-    raza.value = dataObj['raza'] || '';
-    sexo.value = dataObj['sexo'] || '';
-    color.value = dataObj['color'] || '';
-    edad.value = dataObj['edad'] || '';
-    ubicacion.value = dataObj['localización'] || dataObj['dirección'] || '';
-    contactoNombre.value = dataObj['nombre_del_contacto_del_dueño'] || '';
-    telefono.value = dataObj['teléfono'] || '';
-    email.value = dataObj['correo_electrónico'] || '';
+    nombre.value = dataObj["nombre"] || "";
+    especie.value = dataObj["especie"] || "";
+    raza.value = dataObj["raza"] || "";
+    sexo.value = dataObj["sexo"] || "";
+    color.value = dataObj["color"] || "";
+    edad.value = dataObj["edad"] || "";
+    ubicacion.value = dataObj["localización"] || dataObj["dirección"] || "";
+    contactoNombre.value = dataObj["nombre_del_contacto_del_dueño"] || "";
+    telefono.value = dataObj["teléfono"] || "";
+    email.value = dataObj["correo_electrónico"] || "";
   }
 });
