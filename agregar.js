@@ -55,7 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const agregarMascotaBtn = document.getElementById("agregarMascotaBtn");
   agregarMascotaBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    const nombre = document.getElementById("nombre").value;
+    console.log(myid);
+    // const nombre = document.getElementById("nombre").value;
     const especie = document.getElementById("especie").value;
     const raza = document.getElementById("raza").value;
     const color = document.getElementById("color").value;
@@ -94,7 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
       !!email &&
       !!descripcion
     ) {
-      console.log(myid);
       fetch("https://nodetest-p2ot.onrender.com/registrarPerdida", {
         method: "POST",
         body: JSON.stringify({
