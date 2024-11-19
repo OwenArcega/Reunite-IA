@@ -60,8 +60,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((data) => {
         if (data.status == "ok") {
           sessionStorage.setItem("userId", data.body[0].id);
+          console.log(sessionStorage.getItem("userId"));
           sessionStorage.setItem("logged", "true");
-          window.location.href = "home.html";
+          // window.location.href = "home.html";
         } else {
           alert("Usuario no encontrado");
         }
