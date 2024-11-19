@@ -120,9 +120,10 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((data) => {
           if (data.status == "ok") {
             alert("Mascota guardada correctamente");
+          } else if (data.status == "Error") {
+            console.log(data.error);
           } else {
             alert("Error al guardar la mascota");
-            console.log(data);
           }
           limpiarFormulario();
         });
