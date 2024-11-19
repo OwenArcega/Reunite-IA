@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Variable global para almacenar los datos de mascotas
-  let myid = localStorage.getItem("userId");
+  let myid = sessionStorage.getItem("userId");
 
   const estadosDeMexico = [
     "Aguascalientes",
