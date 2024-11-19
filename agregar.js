@@ -55,8 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const agregarMascotaBtn = document.getElementById("agregarMascotaBtn");
   agregarMascotaBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log(myid);
-    // const nombre = document.getElementById("nombre").value;
+    const nombre = document.getElementById("nombre").value;
     const especie = document.getElementById("especie").value;
     const raza = document.getElementById("raza").value;
     const color = document.getElementById("color").value;
