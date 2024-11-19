@@ -70,9 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let encontrado = false;
     ubicacion = ubicacion.toLowerCase();
-    encontrado = estadosDeMexico.find((estado) =>
-      ubicacion.includes(estado.toLowerCase())
-    );
+    encontrado = estadosDeMexico.find((estado) => ubicacion.includes(estado.toLowerCase()));
 
     if (!encontrado) {
       alert("Agrege un estado a la ubicación.");
@@ -96,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       !!email &&
       !!descripcion
     ) {
+      console.log(myid);
       fetch("https://nodetest-p2ot.onrender.com/registrarPerdida", {
         method: "POST",
         body: JSON.stringify({
@@ -174,18 +173,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const file = imageInput.files[0];
     if (!file) return;
     const imagen = await readFileAsBase64(file);
-    const response = await fetch(
-      "https://nodetest-p2ot.onrender.com/obtenerInfo",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          imagen: imagen,
-        }),
-      }
-    )
+    const response = await fetch("https://nodetest-p2ot.onrender.com/obtenerInfo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        imagen: imagen,
+      }),
+    })
       .then((res) => res.json())
       .then((data) => {
         try {
